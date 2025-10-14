@@ -27,10 +27,10 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 position-sticky top-0 z-1">
+  <nav class="navbar navbar-expand-lg pt-5 fixed-top z-3">
     <div class="container">
 
-      <div class="navbar-brand">
+      <div class="navbar-brand ms-sm-0 ms-3">
         <a href="#"><img src="./assets/images/navbar/Agency-Logo.svg" alt=""></a>
       </div>
 
@@ -45,7 +45,7 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav d-flex justify-content-lg-center gap-lg-5 align-items-center ms-auto me-auto">
-          <a href="#" class="nav-link active text-white aria-current=">
+          <a href="#" class="nav-link active text-white fw-semibold">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
                 d="M407.72 208c-2.72 0-14.44.08-18.67.31l-57.77 1.52L198.06 48h-62.81l74.59 164.61l-97.31 1.44L68.25 160H16.14l20.61 94.18c.15.54.33 1.07.53 1.59a.26.26 0 0 1 0 .15a15 15 0 0 0-.53 1.58L15.86 352h51.78l45.45-55l96.77 2.17L135.24 464h63l133-161.75l57.77 1.54c4.29.23 16 .31 18.66.31c24.35 0 44.27-3.34 59.21-9.94C492.22 283 496 265.46 496 256c0-30.06-33-48-88.28-48m-71.29 87.9" />
@@ -53,7 +53,7 @@
             Find Flight
           </a>
 
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white fw-semibold">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
                 d="M432 230.7a79.4 79.4 0 0 0-32-6.7H112a79.5 79.5 0 0 0-32 6.69A80.09 80.09 0 0 0 32 304v112a16 16 0 0 0 32 0v-8a8.1 8.1 0 0 1 8-8h368a8.1 8.1 0 0 1 8 8v8a16 16 0 0 0 32 0V304a80.09 80.09 0 0 0-48-73.3M376 80H136a56 56 0 0 0-56 56v72a4 4 0 0 0 5.11 3.84A95.5 95.5 0 0 1 112 208h4.23a4 4 0 0 0 4-3.55A32 32 0 0 1 152 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h24.46a4 4 0 0 0 4-3.55A32 32 0 0 1 304 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h4.2a95.5 95.5 0 0 1 26.89 3.85A4 4 0 0 0 432 208v-72a56 56 0 0 0-56-56" />
@@ -64,8 +64,8 @@
 
         <div
           class="d-flex flex-lg-row gap-lg-2 justify-content-lg-end justify-content-sm-center align-items-center flex-column gap-2">
-          <button class="btn text-white">Log In</button>
-          <button class="btn btn-light">Sign Up</button>
+          <button class="btn text-white fw-semibold">Log In</button>
+          <button class="btn btn-light fw-semibold">Sign Up</button>
         </div>
 
       </div>
@@ -73,6 +73,111 @@
     </div>
   </nav>
 
+
+  <main>
+    <section class="hero mx-sm-4 mt-sm-4 mx-3 mt-3 ">
+      <div class="container vh-100 position-relative z-1 d-flex flex-column justify-content-center gap-5">
+        <div class="hero__text d-flex flex-column justify-content-center align-items-center">
+          <h1 class="text-white">Helping Others <br> <span class="text-uppercase">Live & Travel</span></h1>
+          <p class="text-white">Special offers to suit your plan</p>
+        </div>
+
+
+
+        <div class="search__card p-3 position-absolute top-80 w-100">
+          <nav>
+            <div class="nav nav-tabs nav__tab" id="nav-tab" role="tablist">
+              <button class="nav-link fw-semibold active" id="nav-flight-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-flights" type="button" role="tab" aria-controls="nav-flights" aria-selected="true">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path fill="#000"
+                    d="M407.72 208c-2.72 0-14.44.08-18.67.31l-57.77 1.52L198.06 48h-62.81l74.59 164.61l-97.31 1.44L68.25 160H16.14l20.61 94.18c.15.54.33 1.07.53 1.59a.26.26 0 0 1 0 .15a15 15 0 0 0-.53 1.58L15.86 352h51.78l45.45-55l96.77 2.17L135.24 464h63l133-161.75l57.77 1.54c4.29.23 16 .31 18.66.31c24.35 0 44.27-3.34 59.21-9.94C492.22 283 496 265.46 496 256c0-30.06-33-48-88.28-48m-71.29 87.9" />
+                </svg>
+                Flight
+              </button>
+              <button class="nav-link fw-semibold" id="nav-stays-tab" data-bs-toggle="tab" data-bs-target="#nav-stays"
+                type="button" role="tab" aria-controls="nav-stays" aria-selected="false"><svg width="24" height="24"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path fill="#000"
+                    d="M432 230.7a79.4 79.4 0 0 0-32-6.7H112a79.5 79.5 0 0 0-32 6.69A80.09 80.09 0 0 0 32 304v112a16 16 0 0 0 32 0v-8a8.1 8.1 0 0 1 8-8h368a8.1 8.1 0 0 1 8 8v8a16 16 0 0 0 32 0V304a80.09 80.09 0 0 0-48-73.3M376 80H136a56 56 0 0 0-56 56v72a4 4 0 0 0 5.11 3.84A95.5 95.5 0 0 1 112 208h4.23a4 4 0 0 0 4-3.55A32 32 0 0 1 152 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h24.46a4 4 0 0 0 4-3.55A32 32 0 0 1 304 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h4.2a95.5 95.5 0 0 1 26.89 3.85A4 4 0 0 0 432 208v-72a56 56 0 0 0-56-56" />
+                </svg>
+                Stays</button>
+            </div>
+          </nav>
+          <div class="tab-content " id="nav-tabContent">
+
+            <div class="tab-pane fade show active py-4" id="nav-flights" role="tabpanel"
+              aria-labelledby="nav-flight-tab" tabindex="0">
+
+              <form action="">
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <fieldset class="search__fieldset py-1 px-3 position-relative d-flex">
+                      <legend class="search__legend position-absolute w-auto">From - To</legend>
+                      <input type="text" placeholder="Lahore - Karachi" id="from-to" name="from-to" class="border-0 w-100">
+                      <label for="from-to" class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                          <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32"
+                            d="m304 48l112 112l-112 112m94.87-112H96m112 304L96 352l112-112m-94 112h302" />
+                        </svg>
+                    </fieldset>
+                  </div>
+
+                  <div class="col-md-2">
+                    <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                      <legend class="search__legend position-absolute w-auto">Trip</legend>
+                      <select class="form-select" id="trip-type" name="trip-type" class="border-0 w-100">
+                        <option selected>Return</option>
+                        <option>One Way</option>
+                      </select>
+                    </fieldset>
+                  </div>
+
+
+                  <div class="col-md-3">
+                    <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                      <legend class="search__legend position-absolute w-auto">Depart- Return</legend>
+                      <input type="text" placeholder="07 Nov 22 - 13 Nov 22" id="depart-return" name="depart-return"
+                        class="border-0 w-100">
+                    </fieldset>
+                  </div>
+
+                  <div class="col-md-3">
+                    <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                      <legend class="search__legend position-absolute w-auto">Passenger - Class</legend>
+                      <input type="text" placeholder="1 Passenger, Economy" id="passenger-class" name="passenger-class"
+                        class="border-0 w-100">
+                    </fieldset>
+                  </div>
+
+                </div>
+              </form>
+
+              <div class="form__actions d-flex justify-content-md-end gap-4 pt-4">
+                <button class="promo__code btn">+ Add Promo Code</button>
+                <a href="#" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 512 512">
+                    <path fill="#000"
+                      d="M473 39.05a24 24 0 0 0-25.5-5.46L47.47 185h-.08a24 24 0 0 0 1 45.16l.41.13l137.3 58.63a16 16 0 0 0 15.54-3.59L422 80a7.07 7.07 0 0 1 10 10L226.66 310.26a16 16 0 0 0-3.59 15.54l58.65 137.38c.06.2.12.38.19.57c3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0 0 23-15.46L478.39 64.62A24 24 0 0 0 473 39.05" />
+                  </svg> Show Filghts</a>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="tab-pane fade" id="nav-stays" role="tabpanel" aria-labelledby="nav-stays-tab" tabindex="0">
+              ...</div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
