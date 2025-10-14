@@ -16,6 +16,9 @@ a{
 .btn{
   padding: 15px 24px ;  
 }
+.label__btn{
+  padding: 6px 12px;
+}
 .btn-primary:hover{
   background-color: #9adcc5;
   border-color: #9adcc5;
