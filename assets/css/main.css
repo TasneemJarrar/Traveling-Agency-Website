@@ -1,5 +1,6 @@
 :root {
   --maincolor: #8dd3bb;
+  --mutedcolor: #112211;
   --mainfont: "Montserrat", sans-serif;
   --secondaryfont: "Libre Franklin", sans-serif;
 }
@@ -8,6 +9,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: var(--mainfont);
+  height: 5000px;
+}
+p {
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -52,14 +57,15 @@ a {
 }
 .secondary__font {
   font-family: var(--secondaryfont);
+  word-spacing: 3px;
 }
 .text__muted {
-  color: #626962;
+  color: var(--mutedcolor);
 }
-.fs-14 {
+.fs__14 {
   font-size: 14px;
 }
-.fs-12 {
+.fs__12 {
   font-size: 12px;
 }
 /* animation */
@@ -256,7 +262,9 @@ a {
     width: 22.5rem;
   }
 }
-
+.popular__destinations .text__muted {
+  opacity: 70%;
+}
 .popular__destinations .destinations-grid .card__btns a {
   position: relative;
 }
@@ -286,3 +294,32 @@ a {
 }
 
 /* popular destinations end */
+/* reviews start */
+.reviews .text__muted {
+  opacity: 50%;
+}
+.reviews .view-more__text {
+  height: 46px;
+  overflow-y: auto;
+  position: relative;
+}
+/* .reviews .view-more__text::after {
+  content: "...";
+  position: absolute;
+  bottom: 4px;
+  right: 15px;
+  z-index: 0;
+  color: var(--mutedcolor);
+  opacity: 50%;
+}
+.reviews .view-more__btn button:focus  .reviews .view-more__text{
+  height: 100%;
+}
+.reviews .view-more__btn button:focus  .reviews .view-more__text::after{
+  opacity: 0;
+} */
+ .reviews .card{
+  border-radius: 20px;
+  box-shadow: 1.5rem 1.5rem #8dd3ba66;
+ }
+/* reviews end */
