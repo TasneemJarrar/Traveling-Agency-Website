@@ -31,7 +31,7 @@
     <div class="container">
 
       <div class="navbar-brand ms-sm-0 ms-3">
-        <a href="#"><img src="./assets/images/navbar/Agency-Logo.svg" alt=""></a>
+        <a href="#"><img src="./assets/images/landing-page/navbar/Agency-Logo.svg" alt=""></a>
       </div>
 
       <button class="navbar-toggler w-auto border-0" type="button" data-bs-toggle="collapse"
@@ -83,7 +83,7 @@
           <p class="text-white fs-5">Special offers to suit your plan</p>
         </div>
 
-        <div class="search__card p-3 position-absolute top-80 w-100">
+        <div class="search__card start-50 translate-middle-x p-3 position-absolute w-100 flex-grow-1">
           <nav>
             <div class="nav nav-tabs nav__tab" id="nav-tab" role="tablist">
               <button class="nav-link fw-semibold active" id="nav-flight-tab" data-bs-toggle="tab"
@@ -105,17 +105,17 @@
           </nav>
           <div class="tab-content " id="nav-tabContent">
 
-            <div class="tab-pane fade show active py-4" id="nav-flights" role="tabpanel"
+            <div class="tab-pane fade show active py-4 d-flex flex-column" id="nav-flights" role="tabpanel"
               aria-labelledby="nav-flight-tab" tabindex="0">
 
-              <form action="">
-                <div class="row">
+              <form>
+                <div class="row gap-3 gap-lg-0">
 
-                  <div class="col-md-4">
+                  <div class="col-lg-4 col-12">
                     <fieldset class="search__fieldset py-1 px-3 position-relative d-flex">
-                      <legend class="search__legend position-absolute w-auto">From - To</legend>
+                      <legend class="search__legend position-absolute w-auto fs-14">From - To</legend>
                       <input type="text" placeholder="Lahore - Karachi" id="from-to" name="from-to"
-                        class="border-0 w-100">
+                        class="form-control border-0 w-100">
                       <label for="from-to" class="btn label__btn d-flex justify-content-center align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
                           <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
@@ -126,10 +126,10 @@
                     </fieldset>
                   </div>
 
-                  <div class="col-md-2">
+                  <div class="col-lg-2 col-12">
                     <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
-                      <legend class="search__legend position-absolute w-auto">Trip</legend>
-                      <select class="form-select" id="trip-type" name="trip-type" class="border-0 w-100">
+                      <legend class="search__legend position-absolute w-auto fs-14">Trip</legend>
+                      <select class="form-select" id="trip-type" name="trip-type" class="form-control border-0 w-100">
                         <option selected>Return</option>
                         <option>One Way</option>
                       </select>
@@ -137,44 +137,337 @@
                   </div>
 
 
-                  <div class="col-md-3">
+                  <div class="col-lg-3 col-12">
                     <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
-                      <legend class="search__legend position-absolute w-auto">Depart- Return</legend>
+                      <legend class="search__legend position-absolute w-auto fs-14">Depart- Return</legend>
                       <input type="text" placeholder="07 Nov 22 - 13 Nov 22" id="depart-return" name="depart-return"
-                        class="border-0 w-100">
+                        class="form-control border-0 w-100">
                     </fieldset>
                   </div>
 
-                  <div class="col-md-3">
+                  <div class="col-lg-3 col-12">
                     <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
-                      <legend class="search__legend position-absolute w-auto">Passenger - Class</legend>
+                      <legend class="search__legend position-absolute w-auto fs-14">Passenger - Class</legend>
                       <input type="text" placeholder="1 Passenger, Economy" id="passenger-class" name="passenger-class"
-                        class="border-0 w-100">
+                        class="form-control border-0 w-100">
                     </fieldset>
                   </div>
 
                 </div>
               </form>
 
-              <div class="form__actions d-flex justify-content-md-end gap-4 pt-4">
+              <div
+                class="form__actions d-flex justify-content-lg-end gap-lg-4 gap-3 pt-4 flex-column flex-lg-row flex-lg-grow-0 align-items-lg-end align-items-start">
                 <button class="promo__code btn">+ Add Promo Code</button>
-                <a href="#" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                <a href="#" class="btn btn__primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                     viewBox="0 0 512 512">
                     <path fill="#000"
                       d="M473 39.05a24 24 0 0 0-25.5-5.46L47.47 185h-.08a24 24 0 0 0 1 45.16l.41.13l137.3 58.63a16 16 0 0 0 15.54-3.59L422 80a7.07 7.07 0 0 1 10 10L226.66 310.26a16 16 0 0 0-3.59 15.54l58.65 137.38c.06.2.12.38.19.57c3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0 0 23-15.46L478.39 64.62A24 24 0 0 0 473 39.05" />
                   </svg> Show Filghts</a>
-
               </div>
-
             </div>
 
 
 
             <div class="tab-pane fade" id="nav-stays" role="tabpanel" aria-labelledby="nav-stays-tab" tabindex="0">
-              ...</div>
+              <form>
+                <div class="row gap-3 gap-lg-0">
 
+                  <div class="col-lg-5 col-12">
+                    <fieldset class="search__fieldset py-1 px-3 position-relative d-flex">
+                      <legend class="search__legend position-absolute w-auto fs-14">Enter Destination</legend>
+                      <input type="text" placeholder="Istanbul, Turkey" id="destination" name="destination"
+                        class="form-control border-0 w-100">
+                    </fieldset>
+                  </div>
+
+                  <div class="col-lg-4 col-12">
+                    <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                      <legend class="search__legend position-absolute w-auto fs-14">Check In - Check Out</legend>
+                      <input type="text" placeholder="07 Nov 22 - 13 Nov 22" id="check-in-out" name="check-in-out"
+                        class="form-control border-0 w-100">
+                    </fieldset>
+                  </div>
+
+                  <div class="col-lg-3 col-12">
+                    <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                      <legend class="search__legend position-absolute w-auto fs-14">Rooms & Guests</legend>
+                      <input type="text" placeholder="1 Room, 2 Guests" id="rooms-guests" name="rooms-guests"
+                        class="form-control border-0 w-100">
+                    </fieldset>
+                  </div>
+
+                </div>
+              </form>
+
+              <div
+                class="form__actions d-flex justify-content-lg-end gap-lg-4 gap-3 pt-4 flex-column flex-lg-row flex-lg-grow-0 align-items-lg-end align-items-start">
+                <button class="promo__code btn">+ Add Promo Code</button>
+                <a href="#" class="btn btn__primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                    <polyline points="9 22 9 12 15 12 15 22" />
+                  </svg>
+                  Show Places
+                </a>
+              </div>
+              
+            </div>
           </div>
 
+        </div>
+
+      </div>
+    </section>
+
+    <section class="popular__destinations py-5">
+      <div class="container">
+        <div
+          class="destinations__header d-flex justify-content-md-between pb-4 flex-md-row flex-column align-items-center">
+          <div class="destinations__header-txt text-center text-md-start">
+            <h2 class="fw-semibold">Plan your perfect trip</h2>
+            <p class="text__muted">Search Flights & Places Hire to our most popular destinations</p>
+          </div>
+          <div class="destinations__header-btn ">
+            <button class="btn btn__primary-outline">See more places</button>
+          </div>
+        </div>
+
+        <div class="destinations-grid py-3">
+          <div class="row justify-content-lg-evenly">
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/Istanbul, Turkey.webp"
+                      alt="Istanbul skyline at sunset with mosques and Bosphorus">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">Istanbul, Turkey</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3 m-lg-0">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/Sydney, Australia.webp"
+                      alt="Sydney Opera House and Harbour Bridge waterfront view">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">Sydney, Australia</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3 mt-xl-0">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/Baku, Azerbaijan.webp"
+                      alt="Baku modern skyline with Flame Towers at dusk">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">Baku, Azerbaijan</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/Malé, Maldives.webp"
+                      alt="Maldives tropical beach with turquoise water">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">Malé, Maldives</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/Paris, France.webp"
+                      alt="Eiffel Tower landmark in Paris city center">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">Paris, France</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3 ">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/New York, US.webp"
+                      alt="New York City Manhattan skyline with skyscrapers">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">New York, US</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/London, UK.webp"
+                      alt="London Big Ben clock tower and Houses of Parliament">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">London, UK</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/Tokyo, Japan.webp"
+                      alt="Tokyo cityscape with Mount Fuji in background">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">Tokyo, Japan</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 col-12 d-flex justify-content-center mt-3">
+              <div class="card p-3 flex-row gap-3 border-0 shadow-lg rounded-4">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./assets/images/landing-page/popular-destinations/Dubai, UAE.webp"
+                      alt="Dubai Burj Khalifa skyscraper and modern skyline">
+                  </a>
+                </div>
+                <div class="card__text-content d-flex flex-column justify-content-center">
+                  <a class="text__muted fw-semibold">Dubai, UAE</a>
+                  <div class="card__btns d-flex gap-2 align-items-center justify-content-center">
+                    <a href="#" class="text-black fw-medium fs-14">Flights</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Hotels</a>
+                    <p class="mb-2 text-black fw-medium">.</p>
+                    <a href="#" class="text-black fw-medium fs-14">Resorts</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="booking-cards py-3">
+          <div class="row justify-content-between gap-3 gap-lg-0">
+
+            <div class="col-lg-6 col-sm-12">
+              <div
+                class="custom_flights-card custom_card d-flex flex-column justify-content-end align-items-center py-4 px-5">
+                <div class="flights__card-text d-flex flex-column justify-content-end align-items-center">
+                  <h3 class="text-white text-center">Flights</h3>
+                  <p class="text-white text-center">Search Flights & Places Hire to our most popular destinations</p>
+                </div>
+                <div>
+                  <a href="#" class="btn btn__primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 512 512">
+                      <path fill="#000"
+                        d="M473 39.05a24 24 0 0 0-25.5-5.46L47.47 185h-.08a24 24 0 0 0 1 45.16l.41.13l137.3 58.63a16 16 0 0 0 15.54-3.59L422 80a7.07 7.07 0 0 1 10 10L226.66 310.26a16 16 0 0 0-3.59 15.54l58.65 137.38c.06.2.12.38.19.57c3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0 0 23-15.46L478.39 64.62A24 24 0 0 0 473 39.05" />
+                    </svg> Show Filghts</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+              <div
+                class="custom_hotels-card custom_card d-flex flex-column justify-content-end align-items-center py-4 px-5">
+                <div class="flights__card-text d-flex flex-column justify-content-end align-items-center">
+                  <h3 class="text-white text-center">Hotels</h3>
+                  <p class="text-white text-center">Search hotels & Places Hire to our most popular destinations</p>
+                </div>
+                <div>
+                  <a href="#" class="btn btn__primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 512 512">
+                      <path fill="#000"
+                        d="M473 39.05a24 24 0 0 0-25.5-5.46L47.47 185h-.08a24 24 0 0 0 1 45.16l.41.13l137.3 58.63a16 16 0 0 0 15.54-3.59L422 80a7.07 7.07 0 0 1 10 10L226.66 310.26a16 16 0 0 0-3.59 15.54l58.65 137.38c.06.2.12.38.19.57c3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0 0 23-15.46L478.39 64.62A24 24 0 0 0 473 39.05" />
+                    </svg> Show Hotels</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </section>
