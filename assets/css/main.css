@@ -9,7 +9,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: var(--mainfont);
-  height: 5000px;
 }
 p {
   margin: 0;
@@ -35,9 +34,19 @@ a {
   --bs-btn-active-bg: #3ba480;
   --bs-btn-active-border-color: #3ba480;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #8dd3bb;
-  --bs-btn-disabled-border-color: #8dd3bb;
+}
+.btn__subscribe {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #112211;
+  --bs-btn-border-color: #112211;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #1d351d;
+  --bs-btn-hover-border-color: #1d351d;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0b150b;
+  --bs-btn-active-border-color: #0b150b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 .btn__primary-outline {
   --bs-btn-color: #000;
@@ -323,3 +332,19 @@ a {
   box-shadow: 1.5rem 1.5rem #8dd3ba66;
  }
 /* reviews end */
+/* newsletter start */
+.newsletter .container{
+  background-color: #CDEAE1;
+  border-radius: 20px;
+}
+.newsletter .newsletter__content h2{
+  font-size: 44px;
+}
+@media screen and (max-width: 576px) {
+  .newsletter .newsletter-illustration{
+    width: 100%;
+    height: 100%;
+  }
+}
+/* newsletter end */
+
