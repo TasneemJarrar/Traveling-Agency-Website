@@ -1,0 +1,18 @@
+/* navbar start */
+.navbar-nav .nav-link {
+  position: relative;
+  padding-bottom: 1rem;
+}
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link.show::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background-color: var(--maincolor);
+  width: 90%;
+  margin-left: 6px;
+}
+/* navbar start */
