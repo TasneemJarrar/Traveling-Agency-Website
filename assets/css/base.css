@@ -80,6 +80,9 @@ a {
 .fs__12 {
   font-size: 12px;
 }
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
 /* animation */
 @keyframes SlideInLeft {
   form {

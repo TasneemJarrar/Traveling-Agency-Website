@@ -3,19 +3,6 @@
   background-color: #11221184;
   border-radius: 20px;
 }
-.navbar-brand {
-  margin-right: 0;
-}
-.navbar .row {
-  margin: 0;
-  width: 100%;
-}
-.navbar-toggler:focus {
-  text-decoration: none;
-  outline: none;
-  box-shadow: 0 0 0 1px;
-  border: none;
-}
 /* navbar end */
 /* hero start */
 .hero {

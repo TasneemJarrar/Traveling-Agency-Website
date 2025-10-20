@@ -48,8 +48,9 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav d-flex justify-content-lg-center gap-lg-5 align-items-center ms-auto me-auto">
-          <a href="./flights-search.html" class="nav-link active text-black fw-semibold">
-            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <a href="./flights-search.html" class="nav-link active active-mobile text-black fw-semibold">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+              class="active-mobile flight_svg">
               <path fill="#000"
                 d="M407.72 208c-2.72 0-14.44.08-18.67.31l-57.77 1.52L198.06 48h-62.81l74.59 164.61l-97.31 1.44L68.25 160H16.14l20.61 94.18c.15.54.33 1.07.53 1.59a.26.26 0 0 1 0 .15a15 15 0 0 0-.53 1.58L15.86 352h51.78l45.45-55l96.77 2.17L135.24 464h63l133-161.75l57.77 1.54c4.29.23 16 .31 18.66.31c24.35 0 44.27-3.34 59.21-9.94C492.22 283 496 265.46 496 256c0-30.06-33-48-88.28-48m-71.29 87.9" />
             </svg>
@@ -75,6 +76,92 @@
 
     </div>
   </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container vh-100 position-relative z-1 d-flex flex-column justify-content-center gap-5">
+
+        <div class="hero__text d-flex flex-column justify-content-center align-items-start mb-3 mb-md-0">
+          <h1 class="text-white fw-semibold secondary__font">Make your travel whishlist, we’ll do the rest</h1>
+          <p class="text-white fw-medium fs-5">Special offers to suit your plan</p>
+        </div>
+
+        <div class="search__card start-50 translate-middle-x p-3 position-absolute w-100 flex-grow-1">
+
+          <div class="">
+            <h2 class="text__muted fw-semibold fs-3">Special offers to suit your plan</h2>
+          </div>
+
+
+          <div class="">
+            <form class="py-4 d-flex flex-column">
+              <div class="row gap-4 gap-lg-0">
+
+                <div class="col-lg-4 col-12">
+                  <fieldset class="search__fieldset py-1 px-3 position-relative d-flex">
+                    <legend class="search__legend position-absolute w-auto fs__14">From - To</legend>
+                    <input type="text" placeholder="Lahore - Karachi" id="from-to" name="from-to"
+                      class="form-control border-0 w-100">
+                    <label for="from-to" class="btn label__btn d-flex justify-content-center align-items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                          d="m304 48l112 112l-112 112m94.87-112H96m112 304L96 352l112-112m-94 112h302" />
+                      </svg>
+                    </label>
+                  </fieldset>
+                </div>
+
+                <div class="col-lg-2 col-12">
+                  <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                    <legend class="search__legend position-absolute w-auto fs__14">Trip</legend>
+                    <select class="form-select" id="trip-type" name="trip-type" class="form-control border-0 w-100">
+                      <option selected>Return</option>
+                      <option>One Way</option>
+                    </select>
+                  </fieldset>
+                </div>
+
+
+                <div class="col-lg-3 col-12">
+                  <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                    <legend class="search__legend position-absolute w-auto fs__14">Depart- Return</legend>
+                    <input type="text" placeholder="07 Nov 22 - 13 Nov 22" id="depart-return" name="depart-return"
+                      class="form-control border-0 w-100">
+                  </fieldset>
+                </div>
+
+                <div class="col-lg-3 col-12">
+                  <fieldset class="search__fieldset py-1 px-3 position-relative d-flex justify-content-between">
+                    <legend class="search__legend position-absolute w-auto fs__14">Passenger - Class</legend>
+                    <input type="text" placeholder="1 Passenger, Economy" id="passenger-class" name="passenger-class"
+                      class="form-control border-0 w-100">
+                  </fieldset>
+                </div>
+
+              </div>
+            </form>
+
+            <div
+              class="form__actions d-flex justify-content-lg-end gap-lg-4 gap-3 pt-4 flex-column flex-lg-row flex-lg-grow-0 align-items-lg-end align-items-start">
+              <button class="promo__code btn">+ Add Promo Code</button>
+              <a href="#" class="btn btn__primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                  viewBox="0 0 512 512">
+                  <path fill="#000"
+                    d="M473 39.05a24 24 0 0 0-25.5-5.46L47.47 185h-.08a24 24 0 0 0 1 45.16l.41.13l137.3 58.63a16 16 0 0 0 15.54-3.59L422 80a7.07 7.07 0 0 1 10 10L226.66 310.26a16 16 0 0 0-3.59 15.54l58.65 137.38c.06.2.12.38.19.57c3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0 0 23-15.46L478.39 64.62A24 24 0 0 0 473 39.05" />
+                </svg> Show Filghts</a>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
 
 
   <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
