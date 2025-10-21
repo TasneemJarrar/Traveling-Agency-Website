@@ -84,7 +84,7 @@
 }
 @media screen and (max-width: 1200px) {
   .hero .hero__text{
-  width: 50%;
+  width: 60%;
  }
 }
 @media screen and (max-width: 992px) {
@@ -96,14 +96,17 @@
   }
 
 }
+@media screen and (max-width: 768px){
+  .hero .hero__text{
+  width: 100%;
+  padding: 0 4rem 2rem 4rem;
+ }
+}
 @media screen and (max-width: 576px) {
   .hero {
     margin: 15px;
     border-radius: 16px;
   }
-  .hero .hero__text{
-  width: 60%;
- }
   .hero .hero__text h1 {
     font-size: 1.5rem;
   }
@@ -134,3 +137,37 @@
   }
 }
 /* hero end */
+/* map start */
+.map .bg__layout{
+  background-image: url(../images/flights-search/map/map-bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 486px;
+}
+@media screen and (min-width: 1200px) {
+  .map {
+    margin-top: 10.25rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .map {
+    margin-top: 10rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .map {
+    margin-top: 28rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .map {
+    margin-top: 28rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .map {
+    margin-top: 25rem;
+  }
+}
+/* map end */
