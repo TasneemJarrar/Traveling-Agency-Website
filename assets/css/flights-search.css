@@ -157,17 +157,47 @@
 }
 @media screen and (max-width: 992px) {
   .map {
-    margin-top: 28rem;
+    margin-top: 26.5rem;
   }
 }
 @media screen and (max-width: 768px) {
   .map {
-    margin-top: 28rem;
+    margin-top: 26.5rem;
   }
 }
 @media screen and (max-width: 576px) {
   .map {
-    margin-top: 25rem;
+    margin-top: 24rem;
   }
 }
 /* map end */
+/* fall travel start */
+.fall-travel .card{
+  height: 420px;
+  border-radius: 12px;
+}
+.fall-travel .card_Melbourne{
+  background-image: url(../images/flights-search/fall-travel/Melbourne.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fall-travel .card_Paris{
+  background-image: url(../images/flights-search/fall-travel/Paris.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fall-travel .card_London{
+  background-image: url(../images/flights-search/fall-travel/London.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fall-travel .card_Columbia{
+  background-image: url(../images/flights-search/fall-travel/Columbia.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* fall travel end */
