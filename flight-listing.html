@@ -33,7 +33,7 @@
     <div class="container py-2">
 
       <div class="navbar-brand ms-sm-0 ms-3">
-        <a href="#"><img src="./assets/images/flights-search/navbar/black-logo.svg" alt=""></a>
+        <a href="./index.html"><img src="./assets/images/flights-search/navbar/black-logo.svg" alt=""></a>
       </div>
 
       <button class="navbar-toggler w-auto border-0" type="button" data-bs-toggle="collapse"
@@ -47,7 +47,7 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav d-flex justify-content-lg-center gap-lg-5 align-items-center ms-auto me-auto">
-          <a href="./flights-search.html" class="nav-link active active-mobile text__muted  fw-semibold fs__14">
+          <a href="./flights-search.html" class="nav-link active active-mobile text__blackishgreen  fw-semibold fs__14">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
               class="active-mobile flight_svg">
               <path fill="#112211"
@@ -56,7 +56,7 @@
             Find Flight
           </a>
 
-          <a href="#" class="nav-link text__muted fw-semibold fs__14">
+          <a href="#" class="nav-link text__blackishgreen fw-semibold fs__14">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="#112211"
                 d="M432 230.7a79.4 79.4 0 0 0-32-6.7H112a79.5 79.5 0 0 0-32 6.69A80.09 80.09 0 0 0 32 304v112a16 16 0 0 0 32 0v-8a8.1 8.1 0 0 1 8-8h368a8.1 8.1 0 0 1 8 8v8a16 16 0 0 0 32 0V304a80.09 80.09 0 0 0-48-73.3M376 80H136a56 56 0 0 0-56 56v72a4 4 0 0 0 5.11 3.84A95.5 95.5 0 0 1 112 208h4.23a4 4 0 0 0 4-3.55A32 32 0 0 1 152 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h24.46a4 4 0 0 0 4-3.55A32 32 0 0 1 304 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h4.2a95.5 95.5 0 0 1 26.89 3.85A4 4 0 0 0 432 208v-72a56 56 0 0 0-56-56" />
@@ -67,14 +67,14 @@
 
         <div
           class="d-flex flex-lg-row gap-lg-5 justify-content-lg-end justify-content-sm-center align-items-center flex-column gap-lg-5 gap-3 pt-3 pt-lg-0">
-          <a href="#" class="favourites_btn text__muted fs__14 fw-semibold">
+          <a href="#" class="favourites_btn text__blackishgreen fs__14 fw-semibold">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <path fill="#112211"
                 d="M11.566 21.112L12 20.5za.75.75 0 0 0 .867 0L12 20.5l.434.612l.008-.006l.021-.015l.08-.058q.104-.075.295-.219a38.5 38.5 0 0 0 4.197-3.674c1.148-1.168 2.315-2.533 3.199-3.981c.88-1.44 1.516-3.024 1.516-4.612c0-1.885-.585-3.358-1.62-4.358c-1.03-.994-2.42-1.439-3.88-1.439c-1.725 0-3.248.833-4.25 2.117C10.998 3.583 9.474 2.75 7.75 2.75c-3.08 0-5.5 2.639-5.5 5.797c0 1.588.637 3.171 1.516 4.612c.884 1.448 2.051 2.813 3.199 3.982a38.5 38.5 0 0 0 4.492 3.892l.08.058l.021.015z" />
             </svg>
             Favourites
           </a>
-          <a href="#" class="text__muted fs__14 fw-semibold d-flex gap-2 align-items-center">
+          <a href="#" class="text__blackishgreen fs__14 fw-semibold d-flex gap-2 align-items-center">
             <div class="user__img position-relative">
               <img src="./assets/images/flight-listing/navbar/John D.webp" alt="">
               <button class="arrow_down position-absolute border-0 p-0 bg-transparent">
@@ -161,6 +161,1637 @@
 
 
 
+        </div>
+      </div>
+    </section>
+
+    <section class="flight-search py-3">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="filters_sidebar">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button text__blackishgreen fs-5 fw-semibold py-3" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne">
+                      Filters
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+
+                      <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button text__blackishgreen fw-semibold" type="button"
+                              data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-price_filter-collapse"
+                              aria-expanded="true" aria-controls="panelsStayOpen-price_filter-collapse">
+                              Price
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-price_filter-collapse" class="accordion-collapse collapse show">
+                            <div class="accordion-body price_filter py-3 px-3">
+                              <input type="range" class="form-range" min="50" max="1200" step="1" id="price-range">
+                              <div class="tag_prices d-flex justify-content-between">
+                                <span class="first-price- text__blackishgreen fs__12  fw-medium">$50</span>
+                                <span class="last-price-range text__blackishgreen fs__12 fw-medium">$1200</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text__blackishgreen fw-semibold" type="button"
+                              data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-departure-time-collapse"
+                              aria-expanded="false" aria-controls="panelsStayOpen-departure-time-collapse">
+                              Departure Time
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-departure-time-collapse" class="accordion-collapse collapse">
+                            <div class="accordion-body departure-time_filter py-3 px-3">
+                              <input type="range" class="form-range" min="50" max="1200" step="1"
+                                id="departure-time-range">
+                              <div class="tag_departure-times d-flex justify-content-between">
+                                <span class="first-time- text__blackishgreen fs__12 fw-medium">12:01Am</span>
+                                <span class="last-time-range text__blackishgreen fs__12 fw-medium">11:59Pm</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text__blackishgreen fw-semibold" type="button"
+                              data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-rating-collapse"
+                              aria-expanded="false" aria-controls="panelsStayOpen-rating-collapse">
+                              Rating
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-rating-collapse" class="accordion-collapse collapse">
+                            <div class="accordion-body ratings d-flex gap-4 py-3 px-3">
+                              <button class="rating_btn btn btn__primary-outline py-1 px-2">0+</button>
+                              <button class="rating_btn btn btn__primary-outline py-1 px-2">1+</button>
+                              <button class="rating_btn btn btn__primary-outline py-1 px-2">2+</button>
+                              <button class="rating_btn btn btn__primary-outline py-1 px-2">3+</button>
+                              <button class="rating_btn btn btn__primary-outline py-1 px-2">4+</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text__blackishgreen fw-semibold" type="button"
+                              data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-airlines-collapse"
+                              aria-expanded="false" aria-controls="panelsStayOpen-airlines-collapse">
+                              Airlines
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-airlines-collapse" class="accordion-collapse collapse">
+                            <div class="accordion-body py-3 px-3">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="airline" value="emirated"
+                                  id="airline-emirated">
+                                <label class="form-check-label fs__14 fw-medium" for="airline-emirated">
+                                  Emirated
+                                </label>
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="airline" value="fly-dubai"
+                                  id="airline-fly-dubai">
+                                <label class="form-check-label fs__14 fw-medium" for="airline-fly-dubai">
+                                  Fly Dubai
+                                </label>
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="airline" value="qatar"
+                                  id="airline-qatar">
+                                <label class="form-check-label fs__14 fw-medium" for="airline-qatar">
+                                  Qatar
+                                </label>
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="airline" value="etihad"
+                                  id="airline-etihad">
+                                <label class="form-check-label fs__14 fw-medium" for="airline-etihad">
+                                  Etihad
+                                </label>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text__blackishgreen fw-semibold" type="button"
+                              data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-trips-collapse"
+                              aria-expanded="false" aria-controls="panelsStayOpen-trips-collapse">
+                              Trips
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-trips-collapse" class="accordion-collapse collapse">
+                            <div class="accordion-body py-3 px-3">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="trips" value="round"
+                                  id="trips-round">
+                                <label class="form-check-label fs__14 fw-medium" for="trips-round">
+                                  Round trip
+                                </label>
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="trips" value="on-Way"
+                                  id="trips-on-Way">
+                                <label class="form-check-label fs__14 fw-medium" for="trips-on-Way">
+                                  On Way
+                                </label>
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="trips" value="multi-city"
+                                  id="trips-multi-city">
+                                <label class="form-check-label fs__14 fw-medium" for="trips-multi-city">
+                                  Multi-City
+                                </label>
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="trips" value="flexible"
+                                  id="trips-flexible">
+                                <label class="form-check-label fs__14 fw-medium" for="trips-flexible">
+                                  My Dates Are Flexible
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="results py-3">
+              <div class="results-header">
+
+                <nav class="bg-white rounded-3 shadow pt-1 px-1 mb-3">
+
+                  <div class="nav nav-tabs results_tabs justify-content-between" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-cheapest-tab" data-bs-toggle="tab"
+                      data-bs-target="#nav-cheapest" type="button" role="tab" aria-controls="nav-cheapest"
+                      aria-selected="true">
+                      <div class="btn_content d-flex flex-column align-items-start gap-1">
+                        <span class="fw-semibold">Cheapest</span>
+                        <div class="d-sm-flex gap-2 d-none">
+                          <span class="fs__14 text-muted">$99</span>
+                          <span class="fs__14 text-muted">2h 18m</span>
+                        </div>
+                      </div>
+                    </button>
+
+                    <button class="nav-link" id="nav-best-tab" data-bs-toggle="tab" data-bs-target="#nav-best"
+                      type="button" role="tab" aria-controls="nav-best" aria-selected="false">
+                      <div class="btn_content d-flex flex-column align-items-start gap-1">
+                        <span class="fw-semibold">Best</span>
+                        <div class="d-sm-flex gap-2 d-none">
+                          <span class="fs__14 text-muted">$99</span>
+                          <span class="fs__14 text-muted">2h 18m</span>
+                        </div>
+                      </div>
+                    </button>
+
+                    <button class="nav-link" id="nav-quickest-tab" data-bs-toggle="tab" data-bs-target="#nav-quickest"
+                      type="button" role="tab" aria-controls="nav-quickest" aria-selected="false">
+                      <div class="btn_content d-flex flex-column align-items-start gap-1">
+                        <span class="fw-semibold">Quickest</span>
+                        <div class="d-sm-flex gap-2 d-none">
+                          <span class="fs__14 text-muted">$99</span>
+                          <span class="fs__14 text-muted">2h 18m</span>
+                        </div>
+                      </div>
+                    </button>
+
+                    <button class="nav-link fw-medium d-sm-flex gap-2 d-none align-items-center justify-content-start "
+                      id="nav-sort-tab" data-bs-toggle="tab" data-bs-target="#nav-sort" type="button" role="tab"
+                      aria-controls="nav-sort" aria-selected="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="1.5" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                      Other sort
+                    </button>
+
+                  </div>
+                </nav>
+              </div>
+
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-cheapest" role="tabpanel"
+                  aria-labelledby="nav-cheapest-tab" tabindex="0">
+
+                  <div
+                    class="results_info d-flex justify-content-sm-between align-items-center flex-sm-row flex-column justify-content-center">
+                    <span class="fs__14 fw-semibold">Showing 4 of <span class="text__slamon">257 places</span></span>
+                    <div class="sort_dropdown d-flex align-items-center gap-0 ">
+                      <label class="fs__14">Sort by</label>
+                      <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
+                        <option value="">Recommended</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                        <option value="">Duration</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="flight_cards-list py-3">
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/emirates-logo.webp"
+                              alt="Emirates Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/flydubai-logo.webp"
+                              alt="Fly Dubai Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/Qatar-logo.webp"
+                              alt="Qatar Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/etihad-logo.webp"
+                              alt="Etihad Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="nav-best" role="tabpanel" aria-labelledby="nav-best-tab" tabindex="0">
+                  <div
+                    class="results_info d-flex justify-content-between align-items-center  flex-sm-row flex-column justify-content-center">
+                    <span class="fs__14 fw-semibold">Showing 4 of <span class="text__slamon">257 places</span></span>
+                    <div class="sort_dropdown d-flex align-items-center gap-0">
+                      <label class="fs__14">Sort by</label>
+                      <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
+                        <option value="">Recommended</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                        <option value="">Duration</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="flight_cards-list py-3">
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/emirates-logo.webp"
+                              alt="Emirates Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/flydubai-logo.webp"
+                              alt="Fly Dubai Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/Qatar-logo.webp"
+                              alt="Qatar Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/etihad-logo.webp"
+                              alt="Etihad Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="nav-quickest" role="tabpanel" aria-labelledby="nav-quickest-tab"
+                  tabindex="0">
+                  <div
+                    class="results_info d-flex justify-content-between align-items-center  flex-sm-row flex-column justify-content-center">
+                    <span class="fs__14 fw-semibold">Showing 4 of <span class="text__slamon">257 places</span></span>
+                    <div class="sort_dropdown d-flex align-items-center gap-0">
+                      <label class="fs__14">Sort by</label>
+                      <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
+                        <option value="">Recommended</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                        <option value="">Duration</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="flight_cards-list py-3">
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/emirates-logo.webp"
+                              alt="Emirates Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/flydubai-logo.webp"
+                              alt="Fly Dubai Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/Qatar-logo.webp"
+                              alt="Qatar Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/etihad-logo.webp"
+                              alt="Etihad Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="nav-sort" role="tabpanel" aria-labelledby="nav-sort-tab" tabindex="0">
+                  <div
+                    class="results_info d-flex justify-content-between align-items-center  flex-sm-row flex-column justify-content-center">
+                    <span class="fs__14 fw-semibold">Showing 4 of <span class="text__slamon">257 places</span></span>
+                    <div class="sort_dropdown d-flex align-items-center gap-0">
+                      <label class="fs__14">Sort by</label>
+                      <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
+                        <option value="">Recommended</option>
+                        <option value="">Price: Low to High</option>
+                        <option value="">Price: High to Low</option>
+                        <option value="">Duration</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="flight_cards-list py-3">
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/emirates-logo.webp"
+                              alt="Emirates Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/flydubai-logo.webp"
+                              alt="Fly Dubai Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104</span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/Qatar-logo.webp"
+                              alt="Qatar Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="flight_card p-4 shadow rounded-4 d-flex justify-content-between mt-4">
+                      <div class="row w-100">
+                        <div class="col-md-4 col-12">
+                          <div class="flight_card-image d-flex justify-content-sm-start justify-content-center">
+                            <img src="assets/images/flight-listing/airlines results/etihad-logo.webp"
+                              alt="Etihad Airlines logo" class="">
+                          </div>
+                        </div>
+
+                        <div class="col-md-8 col-12 pt-4 pt-md-0">
+                          <div class="flight_detailes d-flex flex-column align-items-sm-start gap-2 align-items-center">
+
+                            <div
+                              class="flight_detailes-header w-100 d-flex flex-sm-row justify-content-sm-between align-items-sm-start flex-column align-items-center  gap-sm-0 gap-3 pb-2 pb-sm-0">
+                              <div class="reviews d-flex align-items-center gap-2">
+                                <span class="btn__primary-outline fs__12 p-1 rounded-2">4.2</span>
+                                <span class="fs__12"><span class="fw-semibold">Very Good </span>54 reviews</span>
+                              </div>
+                              <div class="price_badge d-flex flex-column align-items-sm-end align-items-start ">
+                                <span class="fs__12 text__blackishgreen opacity-75">starting from</span>
+                                <span class="text__slamon fs-4 fw-semibold">$104<span
+                                    class="text__slamon fs-6 fw-semibold">/night</span></span>
+                              </div>
+                            </div>
+
+                            <div class="flights_time">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <label class="form-check-label" for="checkOne">
+                                  <div
+                                    class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                    <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                        pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                    <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                    <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                  </div>
+                                  <div class="d-flex justify-content-between">
+                                    <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                    <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                  </div>
+                                </label>
+                              </div>
+
+                              <div class="flights_time">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <label class="form-check-label" for="checkOne">
+                                    <div
+                                      class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
+                                      <span class="fw-semibold text__balckishgreen"><span class="take-off-time">12:00
+                                          pm</span>- <span class="landing-time">01:28 pm</span></span>
+                                      <span class="fs__14 fw-semibold text__balckishgreen opacity-75">non stop</span>
+                                      <span class="fw-semibold text__balckishgreen opacity-75">2h 28m</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                      <span class="fs__14 text__balckishgreen opacity-50">Emirates</span>
+                                      <span class="fs__14 text__balckishgreen opacity-50">EWR-BNA</span>
+                                    </div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <hr class="devider w-100" />
+
+                            <div class="flight_card-footer d-flex gap-2 w-100">
+                              <button class="btn btn__primary-outline btn_favourit py-3 px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                  <path fill="none" stroke="#4C4850" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547C3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79c-.78-1.654-2.39-2.79-4.25-2.79" />
+                                </svg>
+                              </button>
+                              <button class="btn btn__primary w-100">View Deals</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="show-more-wrapper w-100">
+                <button class="btn btn__subscribe w-100">Show more results</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

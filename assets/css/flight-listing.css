@@ -19,13 +19,13 @@
     opacity: 0;
   }
   .navbar-nav .active-mobile {
-    color: var(--maincolor)!important;
+    color: var(--maincolor) !important;
   }
   .navbar-nav .active-mobile svg path {
     fill: var(--maincolor);
   }
 }
-.navbar .favourites_btn{
+.navbar .favourites_btn {
   position: relative;
 }
 .navbar .favourites_btn::after {
@@ -38,20 +38,18 @@
   height: 20px;
   vertical-align: middle;
   background-color: #000;
-  
 }
-.navbar .user__img .arrow_down{
+.navbar .user__img .arrow_down {
   bottom: 0;
   right: 2px;
 }
 @media screen and (max-width: 992px) {
- .navbar .favourites_btn::after{
-  display: none;
- }
-
+  .navbar .favourites_btn::after {
+    display: none;
+  }
 }
 /* navbar end */
-/*  */
+/* search form start */
 .search-form .search__card {
   background-color: #fff;
   border-radius: 16px;
@@ -81,3 +79,124 @@
   box-shadow: none;
   border: none;
 }
+/* search form end */
+/* filters sidebar strat */
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+}
+.accordion-item:last-child {
+  border-bottom: none;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--mutedcolor);
+  background-color: transparent;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.flight-search input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--maincolor);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.flight-search input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--maincolor);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.flight-search input[type="range"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+.flight-search input[type="range"]:focus::-webkit-slider-thumb {
+  outline: none;
+  box-shadow: none;
+  background-color: #51786a;
+}
+.flight-search .rating_btn {
+  height: 10%;
+  width: 10%;
+}
+.flight-search .form-check-input {
+  border: solid #000 1.5px;
+}
+/* filters sidebar end */
+/* results start */
+.results {
+  position: relative;
+}
+.results::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-52%);
+  height: 95%;
+  width: 1px;
+  background-color: #d7e2ee;
+}
+.results .results-header .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border-bottom: var(--maincolor) solid 3px;
+}
+.results .results-header .nav-tabs .nav-link {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.results .results-header .nav-tabs {
+  border: none;
+}
+.results .results-header .nav-link {
+  position: relative;
+  color: #000;
+}
+.results .form-select {
+  border: none;
+}
+.results .form-select:focus {
+  box-shadow: none;
+}
+.results .results-header .nav-link:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 70%;
+  width: 1px;
+  background-color: #d7e2ee;
+}
+.results .form-check-input:checked {
+  background-color: var(--maincolor);
+  border-color: var(--maincolor);
+}
+@media screen and (max-width: 992px) {
+  .results::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .results .results-header .nav-link:not(:last-child)::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .results .results-header .nav-tabs .nav-line {
+    padding-right: 10px;
+  }
+}
+/* Flight Cards start */

@@ -165,7 +165,7 @@
     width: 22.5rem;
   }
 }
-.popular__destinations .text__muted {
+.popular__destinations .text__blackishgreen {
   opacity: 70%;
 }
 .popular__destinations .destinations-grid .card__btns a {
@@ -203,7 +203,7 @@
 }
 /* popular destinations end */
 /* reviews start */
-.reviews .text__muted {
+.reviews .text__blackishgreen {
   opacity: 50%;
 }
 .reviews .view-more__text {
@@ -240,7 +240,7 @@
   background-color: #8dd3bb;
   padding: 230px 0 50px 0;
 }
-.footer .item{
-  opacity: 70% ;
+.footer .item {
+  opacity: 70%;
 }
 /* footer end */

@@ -1,6 +1,7 @@
 :root {
   --maincolor: #8dd3bb;
-  --mutedcolor: #112211;
+  --blackishgreencolor: #112211;
+  --slamoncolor: #ff8682;
   --mainfont: "Montserrat", sans-serif;
   --secondaryfont: "Libre Franklin", sans-serif;
 }
@@ -10,14 +11,22 @@ body {
   box-sizing: border-box;
   font-family: var(--mainfont);
 }
-p {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label {
   margin: 0;
 }
 a {
   text-decoration: none;
 }
 .btn {
-  padding: 15px 24px;
+  padding: 16px 24px;
 }
 .label__btn {
   padding: 6px 12px;
@@ -67,12 +76,21 @@ a {
   --bs-btn-disabled-border-color: #8dd3bb;
   border: 1.5px solid #8dd3bb;
 }
+.btn__primary-outline:focus {
+  background-color: #8dd3bb;
+}
 .secondary__font {
   font-family: var(--secondaryfont);
   word-spacing: 3px;
 }
-.text__muted {
-  color: var(--mutedcolor);
+.text__blackishgreen {
+  color: var(--blackishgreencolor);
+}
+.text__slamon {
+  color: var(--slamoncolor);
+}
+.fs__20 {
+  font-size: 20px;
 }
 .fs__14 {
   font-size: 14px;
@@ -83,8 +101,8 @@ a {
 .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
-.bg__blackishgreen{
-  background-color: var(--mutedcolor);
+.bg__blackishgreen {
+  background-color: var(--blackishgreencolor);
 }
 /* animation */
 @keyframes SlideInLeft {
