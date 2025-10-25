@@ -130,6 +130,10 @@
 .flight-search .form-check-input {
   border: solid #000 1.5px;
 }
+.flight-search .filters_sidebar .form-check-input:checked {
+  background-color: var(--maincolor);
+  border-color: var(--maincolor);
+}
 /* filters sidebar end */
 /* results start */
 .results {
