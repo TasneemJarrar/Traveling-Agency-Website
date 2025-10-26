@@ -91,7 +91,6 @@
     font-size: 4rem;
   }
 }
-
 @media screen and (max-width: 576px) {
   .hero {
     margin: 15px;
@@ -134,30 +133,29 @@
 }
 /* hero end */
 /* popular destinations start */
-
 @media screen and (min-width: 1200px) {
   .popular__destinations {
-    margin-top: 10.25rem;
+    margin-top: 12.25rem;
   }
 }
 @media screen and (max-width: 1200px) {
   .popular__destinations {
-    margin-top: 10rem;
+    margin-top: 12rem;
   }
 }
 @media screen and (max-width: 992px) {
   .popular__destinations {
-    margin-top: 28rem;
+    margin-top: 35rem;
   }
 }
 @media screen and (max-width: 768px) {
   .popular__destinations {
-    margin-top: 28rem;
+    margin-top: 35rem;
   }
 }
 @media screen and (max-width: 576px) {
   .popular__destinations {
-    margin-top: 25rem;
+    margin-top: 32rem;
   }
 }
 @media screen and (max-width: 1200px) {
