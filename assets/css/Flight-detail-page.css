@@ -57,4 +57,22 @@
   height: 395px; 
 }
 /* hero end */
-
+/* economy features start */
+.economy_features .form-check-input[type=radio] {
+  border-radius: 5px;
+}
+.economy_features .form-check-input:focus {
+  border-color: #8dd3bb;
+  outline: 0;
+  box-shadow: none;
+}
+.economy_features .form-check-input:checked {
+  background-color: var(--maincolor);
+  border-color: var(--maincolor);
+}
+/* economy features end */
+/* policies strat */
+.policies .container{
+  background-color: #8dd3bb99
+;
+}
