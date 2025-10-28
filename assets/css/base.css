@@ -10,7 +10,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: var(--mainfont);
-  height: 5000px;
 }
 p,
 h1,
