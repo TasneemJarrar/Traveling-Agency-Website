@@ -56,5 +56,11 @@
   background-size: cover;
   height: 300px;
 }
-
-
+/* hero end */
+/* terms start */
+.terms .payment_terms ul li::marker {
+  font-weight: normal;
+  color: var(--blackishgreencolor);
+  font-size: 14px;
+}
+/* terms end */
