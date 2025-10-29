@@ -76,6 +76,22 @@
   background-color: #8dd3bb99
 }
 /* policies end */
+/* flight schedule card start */
+.flight_schedule_card .amenity_icon{
+  position: relative;
+}
+.flight_schedule_card .amenity_icon:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 1px;
+  background-color: #d7e2ee;
+}
+/* flight schedule card start */
 /* newsletter start */
 .newsletter {
   bottom: -150px;
