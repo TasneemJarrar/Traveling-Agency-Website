@@ -50,15 +50,15 @@
 }
 /* navbar end */
 /* hero start */
-.hero .flight_image{
+.hero .flight_image {
   background-image: url(../images/Flight-detail-page/hero/emirates-a380-hero.webp);
-  background-position:initia bottom;
+  background-position: initia bottom;
   background-size: cover;
-  height: 395px; 
+  height: 395px;
 }
 /* hero end */
 /* economy features start */
-.economy_features .form-check-input[type=radio] {
+.economy_features .form-check-input[type="radio"] {
   border-radius: 5px;
 }
 .economy_features .form-check-input:focus {
@@ -72,12 +72,12 @@
 }
 /* economy features end */
 /* policies strat */
-.policies .container{
-  background-color: #8dd3bb99
+.policies .container {
+  background-color: #8dd3bb99;
 }
 /* policies end */
 /* flight schedule card start */
-.flight_schedule_card .amenity_icon{
+.flight_schedule_card .amenity_icon {
   position: relative;
 }
 .flight_schedule_card .amenity_icon:not(:last-child)::after {
@@ -115,7 +115,7 @@
   background-color: #8dd3bb;
   padding: 230px 0 50px 0;
 }
-.footer .item{
-  opacity: 70% ;
+.footer .item {
+  opacity: 70%;
 }
-/* footer end *
+/* footer end */
