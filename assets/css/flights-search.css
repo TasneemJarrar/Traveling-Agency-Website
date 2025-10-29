@@ -7,7 +7,7 @@
 .navbar-nav .nav-link.show::after {
   content: "";
   position: absolute;
-  bottom: -19px;
+  bottom: -20px;
   left: 6px;
   height: 5px;
   background-color: var(--maincolor);

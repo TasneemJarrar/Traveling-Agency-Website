@@ -1,0 +1,60 @@
+/* navbar start */
+.navbar-nav .nav-link {
+  position: relative;
+  padding-bottom: 1rem;
+}
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link.show::after {
+  content: "";
+  position: absolute;
+  bottom: -17px;
+  left: 7px;
+  height: 5px;
+  background-color: var(--maincolor);
+  width: 90%;
+}
+@media screen and (max-width: 992px) {
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .nav-link.show::after {
+    opacity: 0;
+  }
+  .navbar-nav .active-mobile {
+    color: var(--maincolor) !important;
+  }
+  .navbar-nav .active-mobile svg path {
+    fill: var(--maincolor);
+  }
+}
+.navbar .favourites_btn {
+  position: relative;
+}
+.navbar .favourites_btn::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  right: -25px;
+  width: 2px;
+  height: 20px;
+  vertical-align: middle;
+  background-color: #000;
+}
+.navbar .user__img .arrow_down {
+  bottom: 0;
+  right: 2px;
+}
+@media screen and (max-width: 992px) {
+  .navbar .favourites_btn::after {
+    display: none;
+  }
+}
+/* navbar end */
+/* hero start */
+.hero .ticket_image {
+  background-image: url(../images/airline-ticket-details/hero/airline-ticket.webp);
+  background-position: bottom;
+  background-size: cover;
+  height: 300px;
+}
+
+

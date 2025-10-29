@@ -7,7 +7,7 @@
 .navbar-nav .nav-link.show::after {
   content: "";
   position: absolute;
-  bottom: -19px;
+  bottom: -17px;
   left: 7px;
   height: 5px;
   background-color: var(--maincolor);
@@ -50,10 +50,8 @@
 }
 /* navbar end */
 /* hero start */
-.hero .flight_image {
-  background-image: url(../images/Flight-detail-page/hero/emirates-a380-hero.webp);
-  background-position: initia bottom;
-  background-size: cover;
+.hero .flight_image img{
+
   height: 395px;
 }
 /* hero end */
