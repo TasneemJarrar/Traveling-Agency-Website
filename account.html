@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+  <!-- base css -->
+  <link rel="stylesheet" href="./assets/css/base.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/account.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg shadow bg-white position-sticky top-0 z-3">
+    <div class="container py-2">
+
+      <div class="navbar-brand ms-sm-0 ms-3">
+        <a href="./index.html"><img src="./assets/images/flights-search/navbar/black-logo.svg" alt=""></a>
+      </div>
+
+      <button class="navbar-toggler w-auto border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="-5 -7 24 24">
+          <path fill="#112211"
+            d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2m7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2M1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2" />
+        </svg>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav d-flex justify-content-lg-center gap-lg-5 align-items-center ms-auto me-auto">
+          <a href="./flights-search.html" class="nav-link active active-mobile text__blackishgreen  fw-semibold fs__14">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+              class="active-mobile flight_svg">
+              <path fill="#112211"
+                d="M407.72 208c-2.72 0-14.44.08-18.67.31l-57.77 1.52L198.06 48h-62.81l74.59 164.61l-97.31 1.44L68.25 160H16.14l20.61 94.18c.15.54.33 1.07.53 1.59a.26.26 0 0 1 0 .15a15 15 0 0 0-.53 1.58L15.86 352h51.78l45.45-55l96.77 2.17L135.24 464h63l133-161.75l57.77 1.54c4.29.23 16 .31 18.66.31c24.35 0 44.27-3.34 59.21-9.94C492.22 283 496 265.46 496 256c0-30.06-33-48-88.28-48m-71.29 87.9" />
+            </svg>
+            Find Flight
+          </a>
+
+          <a href="#" class="nav-link text__blackishgreen fw-semibold fs__14">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="#112211"
+                d="M432 230.7a79.4 79.4 0 0 0-32-6.7H112a79.5 79.5 0 0 0-32 6.69A80.09 80.09 0 0 0 32 304v112a16 16 0 0 0 32 0v-8a8.1 8.1 0 0 1 8-8h368a8.1 8.1 0 0 1 8 8v8a16 16 0 0 0 32 0V304a80.09 80.09 0 0 0-48-73.3M376 80H136a56 56 0 0 0-56 56v72a4 4 0 0 0 5.11 3.84A95.5 95.5 0 0 1 112 208h4.23a4 4 0 0 0 4-3.55A32 32 0 0 1 152 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h24.46a4 4 0 0 0 4-3.55A32 32 0 0 1 304 176h56a32 32 0 0 1 31.8 28.45a4 4 0 0 0 4 3.55h4.2a95.5 95.5 0 0 1 26.89 3.85A4 4 0 0 0 432 208v-72a56 56 0 0 0-56-56" />
+            </svg>
+            Find Stays
+          </a>
+        </div>
+
+        <div
+          class="d-flex flex-lg-row justify-content-lg-end justify-content-sm-center align-items-center flex-column  gap-3 pt-3 pt-lg-0">
+          <a href="#" class="favourites_btn text__blackishgreen fs__14 fw-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="#112211"
+                d="M11.566 21.112L12 20.5za.75.75 0 0 0 .867 0L12 20.5l.434.612l.008-.006l.021-.015l.08-.058q.104-.075.295-.219a38.5 38.5 0 0 0 4.197-3.674c1.148-1.168 2.315-2.533 3.199-3.981c.88-1.44 1.516-3.024 1.516-4.612c0-1.885-.585-3.358-1.62-4.358c-1.03-.994-2.42-1.439-3.88-1.439c-1.725 0-3.248.833-4.25 2.117C10.998 3.583 9.474 2.75 7.75 2.75c-3.08 0-5.5 2.639-5.5 5.797c0 1.588.637 3.171 1.516 4.612c.884 1.448 2.051 2.813 3.199 3.982a38.5 38.5 0 0 0 4.492 3.892l.08.058l.021.015z" />
+            </svg>
+            Favourites
+          </a>
+          <a href="#" class="text__blackishgreen fs__14 fw-semibold d-flex gap-1 align-items-center">
+            <div class="user__img position-relative">
+              <a href="./account.html" class="">
+                <img src="./assets/images/flight-listing/navbar/John D.webp" alt="">
+              </a>
+              <button class="arrow_down position-absolute border-0 p-0 bg-transparent">
+                <img src="./assets/images/flight-listing/navbar/Arrow Down.svg" alt="arrow down">
+              </button>
+            </div>
+            <span class="user__name ">John D.</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
