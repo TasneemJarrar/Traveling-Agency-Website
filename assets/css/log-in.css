@@ -1,0 +1,82 @@
+/* sign up form start */
+.log-in .input_item {
+  position: relative;
+}
+.log-in .input_item .form-label {
+  top: -10px;
+  left: 10px;
+  color: #1c1b1f;
+  z-index: 2;
+}
+.log-in .input_item .form-control {
+  border-color: #79747e;
+}
+.log-in .input_item .form-control::placeholder {
+  color: #1c1b1f;
+}
+.log-in .password-field .password-toggle {
+  top: 12px;
+  right: 12px;
+}
+.log-in .form-check .form-check-input[type="checkbox"] {
+  border-radius: 3px;
+}
+.log-in .form-check .form-check-input:checked {
+  background-color: #000;
+  border-color: #000;
+}
+.log-in .form-check .form-check-input:focus {
+  border-color: #000;
+  outline: 0;
+  box-shadow: none;
+}
+.log-in .devider::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  width: 35%;
+  background-color: var(--blackishgreencolor);
+  opacity: 25%;
+}
+.log-in .devider::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  width: 35%;
+  background-color: var(--blackishgreencolor);
+  opacity: 25%;
+}
+/* sign up form end */
+/* carousal start */
+.log-in .carousel-indicators {
+  bottom: 20px;
+  margin-bottom: 0;
+}
+.log-in .carousel-indicators [type="button"] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  opacity: 1;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+.log-in .carousel-indicators [type="button"].active {
+  background-color: var(--maincolor);
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+}
+.log-in .carousel-indicators [type="button"]:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* carousal end */

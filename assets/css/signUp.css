@@ -3,7 +3,7 @@
   bottom: 20px;
   margin-bottom: 0;
 }
-.sign-up .carousel-indicators [type=button] {
+.sign-up .carousel-indicators [type="button"] {
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -13,37 +13,37 @@
   margin: 0 4px;
   transition: all 0.3s ease;
 }
-.sign-up .carousel-indicators [type=button].active {
+.sign-up .carousel-indicators [type="button"].active {
   background-color: var(--maincolor);
   width: 24px;
   height: 8px;
   border-radius: 4px;
 }
-.sign-up .carousel-indicators [type=button]:hover {
+.sign-up .carousel-indicators [type="button"]:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
 /* carousal end */
 /* sign up form start */
-.sign-up .input_item{
+.sign-up .input_item {
   position: relative;
 }
-.sign-up .input_item .form-label{
+.sign-up .input_item .form-label {
   top: -10px;
   left: 10px;
-  color: #1C1B1F;
+  color: #1c1b1f;
   z-index: 2;
 }
 .sign-up .input_item .form-control {
-  border-color: #79747E;
+  border-color: #79747e;
 }
 .sign-up .input_item .form-control::placeholder {
-  color: #1C1B1F;
+  color: #1c1b1f;
 }
-.sign-up .password-field .password-toggle{
+.sign-up .password-field .password-toggle {
   top: 12px;
   right: 12px;
 }
-.sign-up .form-check .form-check-input[type=checkbox] {
+.sign-up .form-check .form-check-input[type="checkbox"] {
   border-radius: 3px;
 }
 .sign-up .form-check .form-check-input:checked {
@@ -55,7 +55,7 @@
   outline: 0;
   box-shadow: none;
 }
-.sign-up .devider::before{
+.sign-up .devider::before {
   content: "";
   position: absolute;
   display: inline-block;
@@ -67,7 +67,7 @@
   background-color: var(--blackishgreencolor);
   opacity: 25%;
 }
-.sign-up .devider::after{
+.sign-up .devider::after {
   content: "";
   position: absolute;
   display: inline-block;
