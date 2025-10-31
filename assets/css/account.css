@@ -120,18 +120,21 @@
   .profile_settings .card_nav .nav .nav-link:not(:last-child)::after {
     display: none;
   }
-  .profile_settings .acount_settings .change_btn{
+  .profile_settings .acount_settings .change_btn {
     width: 100%;
   }
 }
-.profile_settings .ticket_card .airline, .profile_settings .ticket_card .hotel{
+.profile_settings .ticket_card .airline,
+.profile_settings .ticket_card .hotel {
   width: 80px;
   height: 80px;
 }
-.profile_settings .ticket_card .flight_time, .profile_settings .ticket_card .check-in_time{
+.profile_settings .ticket_card .flight_time,
+.profile_settings .ticket_card .check-in_time {
   position: relative;
 }
-.profile_settings .ticket_card .flight_time::after, .profile_settings .ticket_card .check-in_time::after{
+.profile_settings .ticket_card .flight_time::after,
+.profile_settings .ticket_card .check-in_time::after {
   content: "";
   position: absolute;
   display: inline-block;
@@ -143,18 +146,19 @@
   background-color: #d7e2ee;
 }
 
-.profile_settings .ticket_card .details .icon{
+.profile_settings .ticket_card .details .icon {
   width: 30px;
   height: 30px;
-  background-color: #EBF6F2;
+  background-color: #ebf6f2;
   border-radius: 4px;
 }
 @media screen and (max-width: 992px) {
-  .profile_settings .ticket_card .flight_time::after, .profile_settings .ticket_card .check-in_time::after{
+  .profile_settings .ticket_card .flight_time::after,
+  .profile_settings .ticket_card .check-in_time::after {
     display: none;
   }
 }
-.profile_settings .user_cards .card_item{
+.profile_settings .user_cards .card_item {
   background-color: var(--maincolor);
 }
 .profile_settings .add_new_card {
@@ -194,4 +198,30 @@
   border-color: #000;
 }
 /* profile settings end */
-
+/* newsletter start */
+.newsletter {
+  bottom: -150px;
+}
+.newsletter .container {
+  background-color: #cdeae1;
+  border-radius: 20px;
+}
+.newsletter .newsletter__content h2 {
+  font-size: 44px;
+}
+@media screen and (max-width: 576px) {
+  .newsletter .newsletter-illustration {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* newsletter end */
+/* footer start */
+.footer {
+  background-color: #8dd3bb;
+  padding: 230px 0 50px 0;
+}
+.footer .item {
+  opacity: 70%;
+}
+/* footer end */
