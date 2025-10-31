@@ -1,0 +1,58 @@
+/* verify code form start */
+.verify-code .input_item {
+  position: relative;
+}
+.verify-code .input_item .form-label {
+  top: -10px;
+  left: 10px;
+  color: #1c1b1f;
+  z-index: 2;
+}
+.verify-code .input_item .form-control {
+  border-color: #79747e;
+}
+.verify-code .input_item .form-control::placeholder {
+  color: #1c1b1f;
+}
+.verify-code .code-field .code-toggle {
+  top: 12px;
+  right: 12px;
+}
+.verify-code .form-check .form-check-input[type="checkbox"] {
+  border-radius: 3px;
+}
+.verify-code .form-check .form-check-input:checked {
+  background-color: #000;
+  border-color: #000;
+}
+.verify-code .form-check .form-check-input:focus {
+  border-color: #000;
+  outline: 0;
+  box-shadow: none;
+}
+/* verify code form end */
+/* carousal start */
+.verify-code .carousel-indicators {
+  bottom: 20px;
+  margin-bottom: 0;
+}
+.verify-code .carousel-indicators [type="button"] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  opacity: 1;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+.verify-code .carousel-indicators [type="button"].active {
+  background-color: var(--maincolor);
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+}
+.verify-code .carousel-indicators [type="button"]:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* carousal end */
