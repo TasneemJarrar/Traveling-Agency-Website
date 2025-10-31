@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+  <!-- base css -->
+  <link rel="stylesheet" href="./assets/css/base.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/signUp.css" />
+</head>
+
+<body>
+  <main>
+
+    <section class="sign-up py-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5">
+            <div id="carouselSignUp" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel"
+              data-bs-interval="3000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselSignUp" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselSignUp" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/signUp/luxury-beach-resort-poolside.webp" class="d-block w-100 h-100"
+                    alt="Luxury tropical resort with palm trees, swimming pool, and lounge chairs under white umbrellas">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/signUp/private-jet-runway-sunset.webp" class="d-block w-100 h-100"
+                    alt="Private jet on airport runway during golden sunset with dramatic clouds">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 offset-lg-1">
+            <div class="logo pb-5">
+              <img src="./assets/images/signUp/green-black-Logo.svg" alt="global company logo">
+            </div>
+
+            <h1 class="fw-bold secondary__font pb-3">Sign up</h1>
+            <p class="fs__14 text__blackishgreen opacity-75 pb-5">Let's get you all set up so you can access your
+              personal
+              account.</p>
+
+            <form id="signupForm">
+
+              <div class="row">
+                <div class="col-sm-6 col-12">
+                  <div class="input_item">
+                    <label class="form-label fs__14 position-absolute bg-white px-1">First Name</label>
+                    <input type="text" class="form-control py-3 mb-3 " placeholder="john.doe@gmail.com" required>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                  <div class="input_item">
+                    <label class="form-label fs__14 position-absolute bg-white px-1">Last Name</label>
+                    <input type="text" class="form-control py-3 mb-3 " placeholder="john.doe@gmail.com" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-1">
+                <div class="col-sm-6 col-12">
+                  <div class="input_item">
+                    <label class="form-label fs__14 position-absolute bg-white px-1">Email</label>
+                    <input type="email" class="form-control py-3 mb-3 " placeholder="john.doe@gmail.com" required>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                  <div class="input_item">
+                    <label class="form-label fs__14 position-absolute bg-white px-1">Phone Number</label>
+                    <input type="tel" class="form-control py-3 mb-3 " placeholder="john.doe@gmail.com" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="input_item mb-3">
+                <label class="form-label fs__14 position-absolute bg-white px-1">Password</label>
+                <div class="password-field position-relative">
+                  <input type="password" class="form-control py-3 mb-3 " id="password" placeholder="••••••••••••••••"
+                    minlength="8" maxlength="50" required>
+                  <button type="button" class="password-toggle btn border-0 bg-transparent p-1 position-absolute">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                      <path fill="#000"
+                        d="M432 448a15.92 15.92 0 0 1-11.31-4.69l-352-352a16 16 0 0 1 22.62-22.62l352 352A16 16 0 0 1 432 448M248 315.85l-51.79-51.79a2 2 0 0 0-3.39 1.69a64.11 64.11 0 0 0 53.49 53.49a2 2 0 0 0 1.69-3.39m16-119.7L315.87 248a2 2 0 0 0 3.4-1.69a64.13 64.13 0 0 0-53.55-53.55a2 2 0 0 0-1.72 3.39" />
+                      <path fill="#000"
+                        d="M491 273.36a32.2 32.2 0 0 0-.1-34.76c-26.46-40.92-60.79-75.68-99.27-100.53C349 110.55 302 96 255.68 96a226.5 226.5 0 0 0-71.82 11.79a4 4 0 0 0-1.56 6.63l47.24 47.24a4 4 0 0 0 3.82 1.05a96 96 0 0 1 116 116a4 4 0 0 0 1.05 3.81l67.95 68a4 4 0 0 0 5.4.24a343.8 343.8 0 0 0 67.24-77.4M256 352a96 96 0 0 1-93.3-118.63a4 4 0 0 0-1.05-3.81l-66.84-66.87a4 4 0 0 0-5.41-.23c-24.39 20.81-47 46.13-67.67 75.72a31.92 31.92 0 0 0-.64 35.54c26.41 41.33 60.39 76.14 98.28 100.65C162.06 402 207.92 416 255.68 416a238.2 238.2 0 0 0 72.64-11.55a4 4 0 0 0 1.61-6.64l-47.47-47.46a4 4 0 0 0-3.81-1.05A96 96 0 0 1 256 352" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="input_item mb-3">
+                <label class="form-label fs__14 position-absolute bg-white px-1">Confirm Password</label>
+                <div class="password-field position-relative">
+                  <input type="password" class="form-control py-3 mb-3 " id="confirmPassword"
+                    placeholder="••••••••••••••••" minlength="8" maxlength="50" required>
+                  <button type="button" class="password-toggle btn border-0 bg-transparent p-1 position-absolute">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                      <path fill="#000"
+                        d="M432 448a15.92 15.92 0 0 1-11.31-4.69l-352-352a16 16 0 0 1 22.62-22.62l352 352A16 16 0 0 1 432 448M248 315.85l-51.79-51.79a2 2 0 0 0-3.39 1.69a64.11 64.11 0 0 0 53.49 53.49a2 2 0 0 0 1.69-3.39m16-119.7L315.87 248a2 2 0 0 0 3.4-1.69a64.13 64.13 0 0 0-53.55-53.55a2 2 0 0 0-1.72 3.39" />
+                      <path fill="#000"
+                        d="M491 273.36a32.2 32.2 0 0 0-.1-34.76c-26.46-40.92-60.79-75.68-99.27-100.53C349 110.55 302 96 255.68 96a226.5 226.5 0 0 0-71.82 11.79a4 4 0 0 0-1.56 6.63l47.24 47.24a4 4 0 0 0 3.82 1.05a96 96 0 0 1 116 116a4 4 0 0 0 1.05 3.81l67.95 68a4 4 0 0 0 5.4.24a343.8 343.8 0 0 0 67.24-77.4M256 352a96 96 0 0 1-93.3-118.63a4 4 0 0 0-1.05-3.81l-66.84-66.87a4 4 0 0 0-5.41-.23c-24.39 20.81-47 46.13-67.67 75.72a31.92 31.92 0 0 0-.64 35.54c26.41 41.33 60.39 76.14 98.28 100.65C162.06 402 207.92 416 255.68 416a238.2 238.2 0 0 0 72.64-11.55a4 4 0 0 0 1.61-6.64l-47.47-47.46a4 4 0 0 0-3.81-1.05A96 96 0 0 1 256 352" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="form-check mb-3 px-0 d-flex align-items-center gap-2">
+                <input class="form-check_input" type="checkbox" id="terms" required>
+                <label class="form-check_label fs__14" for="terms">
+                  I agree to all the <a href="#" class="text__slamon">Terms</a> and <a href="#"
+                    class="text__slamon">Privacy
+                    Policies</a>
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn__primary mb-3 w-100">Create account</button>
+
+              <div class="login text-center mb-4">
+                Already have an account? <a href="#" class="text__slamon fs__14">Login</a>
+              </div>
+
+              <div class="devider fs__14 text__blackishgreen opacity-50 text-center position-relative mb-3">Or Sign up
+                with</div>
+
+              <div class="social_buttons">
+                <div class="row">
+
+                  <div class="col-4">
+                    <button type="button" class="btn btn__primary-outline w-100">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                        <path fill="#1877f2"
+                          d="M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445" />
+                        <path fill="#fff"
+                          d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z" />
+                      </svg>
+                    </button>
+                  </div>
+
+                  <div class="col-4">
+                    <button type="button" class="btn btn__primary-outline w-100">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <path fill="#ffc107"
+                          d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917" />
+                        <path fill="#ff3d00"
+                          d="m6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691" />
+                        <path fill="#4caf50"
+                          d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.9 11.9 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44" />
+                        <path fill="#1976d2"
+                          d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917" />
+                      </svg>
+                    </button>
+                  </div>
+
+                  <div class="col-4">
+                    <button type="button" class="btn btn__primary-outline w-100">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#000"
+                          d="M17.05 20.28c-.98.95-2.05.8-3.08.35c-1.09-.46-2.09-.48-3.24 0c-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8c1.18-.24 2.31-.93 3.57-.84c1.51.12 2.65.72 3.4 1.8c-3.12 1.87-2.38 5.98.48 7.13c-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25c.29 2.58-2.34 4.5-3.74 4.25" />
+                      </svg>
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+            </form>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
