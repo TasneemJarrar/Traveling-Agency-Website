@@ -1,4 +1,4 @@
-/* sign up form start */
+/* login form start */
 .log-in .input_item {
   position: relative;
 }
@@ -54,7 +54,7 @@
   background-color: var(--blackishgreencolor);
   opacity: 25%;
 }
-/* sign up form end */
+/* login form end */
 /* carousal start */
 .log-in .carousel-indicators {
   bottom: 20px;
