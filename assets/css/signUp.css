@@ -1,3 +1,4 @@
+/* carousal start */
 .sign-up .carousel-indicators {
   bottom: 20px;
   margin-bottom: 0;
@@ -21,6 +22,8 @@
 .sign-up .carousel-indicators [type=button]:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
+/* carousal end */
+/* sign up form start */
 .sign-up .input_item{
   position: relative;
 }
@@ -40,16 +43,15 @@
   top: 12px;
   right: 12px;
 }
-.sign-up .form-check .form-check_input[type=checkbox] {
+.sign-up .form-check .form-check-input[type=checkbox] {
   border-radius: 3px;
 }
-
-.sign-up .form-check .form-check_input:checked {
-  background-color: var(--maincolor);
-  border-color: var(--maincolor);
+.sign-up .form-check .form-check-input:checked {
+  background-color: #000;
+  border-color: #000;
 }
-.sign-up .form-check .form-check_input:focus {
-  border-color: var(--maincolor);
+.sign-up .form-check .form-check-input:focus {
+  border-color: #000;
   outline: 0;
   box-shadow: none;
 }
@@ -77,3 +79,4 @@
   background-color: var(--blackishgreencolor);
   opacity: 25%;
 }
+/* sign up form end */

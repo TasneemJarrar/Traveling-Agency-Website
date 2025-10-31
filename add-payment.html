@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+  <!-- base css -->
+  <link rel="stylesheet" href="./assets/css/base.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/add-payment.css" />
+</head>
+
+<body>
+
+  <section class="add-payment py-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5">
+          <div id="carouselAddPayment" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselAddPayment" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselAddPayment" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/signUp/luxury-beach-resort-poolside.webp" class="d-block w-100 h-100"
+                  alt="Luxury tropical resort with palm trees, swimming pool, and lounge chairs under white umbrellas">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/signUp/private-jet-runway-sunset.webp" class="d-block w-100 h-100"
+                  alt="Private jet on airport runway during golden sunset with dramatic clouds">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 offset-lg-1">
+          <div class="logo pb-5">
+            <img src="./assets/images/signUp/green-black-Logo.svg" alt="global company logo">
+          </div>
+
+          <a href="./signUp.html" class="text__blackishgreen d-flex align-items-center mb-3 gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24">
+              <path fill="#112211" fill-rule="evenodd"
+                d="M10 19.438L8.955 20.5l-7.666-7.79a1.02 1.02 0 0 1 0-1.42L8.955 3.5L10 4.563L2.682 12z" />
+            </svg> Back</a>
+
+          <h1 class="fw-bold secondary__font pb-3">Add a payment method</h1>
+          <p class="fs__14 text__blackishgreen opacity-75 pb-5">Let’s get you all st up so you can access your personal
+            account.</p>
+
+          <form>
+            <div class="card_inputs mb-3">
+              <label for="cardNumber" class="form-label">Card Number</label>
+              <div class="input-group d-flex justify-content-center align-items-center px-2 py-3">
+                <input type="text" class="form-control border-0 flex-grow-1 p-0" id="cardNumber"
+                  placeholder="4321 4321 4321 4321">
+                <label for="cardNumber">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 2304 1536">
+                    <path fill="#1434CB"
+                      d="M1975 862h-138q14-37 66-179l3-9q4-10 10-26t9-26l12 55zM531 797l-58-295q-11-54-75-54H130l-2 13q311 79 403 336m179-349L548 886l-17-89q-26-70-85-129.5T315 579l135 510h175l261-641zm139 642h166l104-642H953zm768-626q-69-27-149-27q-123 0-201 59t-79 153q-1 102 145 174q48 23 67 41t19 39q0 30-30 46t-69 16q-86 0-156-33l-22-11l-23 144q74 34 185 34q130 1 208.5-59t80.5-160q0-106-140-174q-49-25-71-42t-22-38q0-22 24.5-38.5T1455 571q70-1 124 24l15 8zm425-16h-128q-65 0-87 54l-246 588h174l35-96h212q5 22 20 96h154zm262-320v1280q0 52-38 90t-90 38H128q-52 0-90-38t-38-90V128q0-52 38-90t90-38h2048q52 0 90 38t38 90" />
+                  </svg>
+                </label>
+              </div>
+            </div>
+
+            <div class="card_inputs row">
+              <div class="col-6 mb-3">
+                <div class="card_inputs">
+                  <label for="expDate" class="form-label">Exp. Date</label>
+                  <input type="text" class="form-control  px-2 py-3" id="expDate" placeholder="02/27">
+                </div>
+              </div>
+
+              <div class="col-6 mb-3">
+                <div class="card_inputs">
+                  <label for="cvc" class="form-label">CVC</label>
+                  <input type="text" class="form-control  px-2 py-3" id="cvc" placeholder="123">
+                </div>
+              </div>
+            </div>
+
+            <div class="card_inputs mb-3">
+              <label for="cardName" class="form-label">Name on Card</label>
+              <input type="text" class="form-control  px-2 py-3" id="cardName" placeholder="John Doe">
+            </div>
+
+            <div class="card_inputs mb-3">
+              <label for="country" class="form-label">Country or Region</label>
+              <select class="form-select  px-2 py-3" id="country">
+                <option selected>United States</option>
+                <option>Palestine</option>
+                <option>Jordan</option>
+                <option>United Kingdom</option>
+              </select>
+            </div>
+
+            <div class="form-check px-4 mb-4">
+              <input class="form-check-input" type="checkbox" id="saveInfo" checked>
+              <label class="form-check-label" for="saveInfo">
+                Securely save my information for 1-click checkout
+              </label>
+            </div>
+
+            <a href="./account.html" type="submit" class="btn btn__primary w-100 fw-semibold">Add Card</a>
+
+            <p class="text__blackishgreen fs__12 mt-3 text-center">
+              By confirming your subscription, you allow The Outdoor Inn Crowd Limited to charge
+              your card
+              for this payment and future payments in accordance with their terms. You can always
+              cancel
+              your subscription.
+            </p>
+          </form>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
