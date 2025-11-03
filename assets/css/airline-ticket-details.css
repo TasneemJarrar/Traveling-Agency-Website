@@ -88,5 +88,38 @@
   opacity: 70%;
 }
 /* footer end */
-
-
+/* hovers and animations */
+.hero .breadcrumb {
+  animation: fadeInUp 1.2s ease;
+}
+.hero .flight_info .text_info {
+  animation: SlideInLeft 1.2s ease;
+}
+.hero .flight_info .price_info {
+  animation: SlideInRight 1.2s ease;
+}
+.hero .flight_info .price_info .share_btn {
+  transition: all 0.3s ease;
+}
+.hero .flight_info .price_info .share_btn:hover {
+  transform: rotate(5deg);
+  background: var(--maincolor);
+}
+.hero .flight_info .price_info .share_btn:hover svg path {
+  stroke: #fff;
+  fill: #fff;
+}
+.hero .ticket_image {
+  animation: fadeInUp 1.2s ease;
+}
+.terms h2 {
+  animation: SlideInLeft 1.2s ease;
+}
+.terms .payment h3,
+.terms .contant h3 {
+  animation: SlideInLeft 1.3s ease;
+}
+.terms .payment_terms,
+.terms .contant p {
+  animation: fadeInUp 1.4s ease;
+}

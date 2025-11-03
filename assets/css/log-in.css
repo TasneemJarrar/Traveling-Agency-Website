@@ -28,7 +28,6 @@
 .log-in .form-check .form-check-input:focus {
   border-color: #000;
   outline: 0;
-  box-shadow: none;
 }
 .log-in .devider::before {
   content: "";
@@ -80,3 +79,29 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 /* carousal end */
+/* hovers and animations */
+.carousel {
+  animation: SlideInRight 1.2s ease;
+}
+.login_form {
+  animation: SlideInLeft 1.2s ease;
+}
+.login_form .log-in_actions .checkbox .form-check-input {
+  transition: all 0.3s ease;
+}
+.login_form .log-in_actions .checkbox .form-check-input:checked {
+  animation: BigBounce 0.4s ease;
+}
+.login_form .forgot-password-btn {
+  transition: all 0.3s ease;
+}
+.login_form .forgot-password-btn:hover {
+  transform: translateY(-2px);
+  font-weight: 600;
+}
+.login_form .signup .signup-btn {
+  transition: all 0.3s ease;
+}
+.login_form .signup .signup-btn:hover {
+  font-weight: 700;
+}

@@ -262,7 +262,7 @@
                           </h2>
                           <div id="panelsStayOpen-airlines-collapse" class="accordion-collapse collapse">
                             <div class="accordion-body py-3 px-3">
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="airline" value="emirated"
                                   id="airline-emirated">
                                 <label class="form-check-label fs__14 fw-medium" for="airline-emirated">
@@ -270,7 +270,7 @@
                                 </label>
                               </div>
 
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="airline" value="fly-dubai"
                                   id="airline-fly-dubai">
                                 <label class="form-check-label fs__14 fw-medium" for="airline-fly-dubai">
@@ -278,7 +278,7 @@
                                 </label>
                               </div>
 
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="airline" value="qatar"
                                   id="airline-qatar">
                                 <label class="form-check-label fs__14 fw-medium" for="airline-qatar">
@@ -286,7 +286,7 @@
                                 </label>
                               </div>
 
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="airline" value="etihad"
                                   id="airline-etihad">
                                 <label class="form-check-label fs__14 fw-medium" for="airline-etihad">
@@ -298,7 +298,7 @@
                           </div>
                         </div>
 
-                        <div class="accordion-item">
+                        <div class="accordion-item checkbox">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed text__blackishgreen fw-semibold" type="button"
                               data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-trips-collapse"
@@ -308,7 +308,7 @@
                           </h2>
                           <div id="panelsStayOpen-trips-collapse" class="accordion-collapse collapse">
                             <div class="accordion-body py-3 px-3">
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="trips" value="round"
                                   id="trips-round">
                                 <label class="form-check-label fs__14 fw-medium" for="trips-round">
@@ -316,7 +316,7 @@
                                 </label>
                               </div>
 
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="trips" value="on-Way"
                                   id="trips-on-Way">
                                 <label class="form-check-label fs__14 fw-medium" for="trips-on-Way">
@@ -324,7 +324,7 @@
                                 </label>
                               </div>
 
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="trips" value="multi-city"
                                   id="trips-multi-city">
                                 <label class="form-check-label fs__14 fw-medium" for="trips-multi-city">
@@ -332,7 +332,7 @@
                                 </label>
                               </div>
 
-                              <div class="form-check">
+                              <div class="form-check checkbox">
                                 <input class="form-check-input" type="checkbox" name="trips" value="flexible"
                                   id="trips-flexible">
                                 <label class="form-check-label fs__14 fw-medium" for="trips-flexible">
@@ -363,7 +363,7 @@
                       data-bs-target="#nav-cheapest" type="button" role="tab" aria-controls="nav-cheapest"
                       aria-selected="true">
                       <div class="btn_content d-flex flex-column align-items-start gap-1">
-                        <span class="fw-semibold">Cheapest</span>
+                        <span class="nav-link_title fw-semibold">Cheapest</span>
                         <div class="d-sm-flex gap-2 d-none">
                           <span class="fs__14 text-muted">$99</span>
                           <span class="fs__14 text-muted">2h 18m</span>
@@ -374,7 +374,7 @@
                     <button class="nav-link" id="nav-best-tab" data-bs-toggle="tab" data-bs-target="#nav-best"
                       type="button" role="tab" aria-controls="nav-best" aria-selected="false">
                       <div class="btn_content d-flex flex-column align-items-start gap-1">
-                        <span class="fw-semibold">Best</span>
+                        <span class="nav-link_title fw-semibold">Best</span>
                         <div class="d-sm-flex gap-2 d-none">
                           <span class="fs__14 text-muted">$99</span>
                           <span class="fs__14 text-muted">2h 18m</span>
@@ -385,7 +385,7 @@
                     <button class="nav-link" id="nav-quickest-tab" data-bs-toggle="tab" data-bs-target="#nav-quickest"
                       type="button" role="tab" aria-controls="nav-quickest" aria-selected="false">
                       <div class="btn_content d-flex flex-column align-items-start gap-1">
-                        <span class="fw-semibold">Quickest</span>
+                        <span class="nav-link_title fw-semibold">Quickest</span>
                         <div class="d-sm-flex gap-2 d-none">
                           <span class="fs__14 text-muted">$99</span>
                           <span class="fs__14 text-muted">2h 18m</span>
@@ -415,12 +415,12 @@
                     class="results_info d-flex justify-content-sm-between align-items-center flex-sm-row flex-column justify-content-center">
                     <span class="fs__14 fw-semibold">Showing 4 of <span class="text__slamon">257 places</span></span>
                     <div class="sort_dropdown d-flex align-items-center gap-0 ">
-                      <label class="fs__14">Sort by</label>
+                      <label class="nav-link_title fs__14">Sort by</label>
                       <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
-                        <option value="">Recommended</option>
-                        <option value="">Price: Low to High</option>
-                        <option value="">Price: High to Low</option>
-                        <option value="">Duration</option>
+                        <option class="option-item">Recommended</option>
+                        <option class="option-item">Price: Low to High</option>
+                        <option class="option-item">Price: High to Low</option>
+                        <option class="option-item">Duration</option>
                       </select>
                     </div>
                   </div>
@@ -452,8 +452,8 @@
                             </div>
 
                             <div class="flights_time">
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                              <div class="form-check checkbox">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -470,8 +470,8 @@
                               </div>
 
                               <div class="flights_time">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <div class="form-check checkbox">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -533,8 +533,8 @@
                             </div>
 
                             <div class="flights_time">
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                              <div class="form-check checkbox">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -551,8 +551,8 @@
                               </div>
 
                               <div class="flights_time">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <div class="form-check checkbox">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -615,8 +615,8 @@
                             </div>
 
                             <div class="flights_time">
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                              <div class="form-check checkbox">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -633,8 +633,8 @@
                               </div>
 
                               <div class="flights_time">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <div class="form-check checkbox">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -697,8 +697,8 @@
                             </div>
 
                             <div class="flights_time">
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                              <div class="form-check checkbox">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -715,8 +715,8 @@
                               </div>
 
                               <div class="flights_time">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <div class="form-check checkbox">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -764,10 +764,10 @@
                     <div class="sort_dropdown d-flex align-items-center gap-0">
                       <label class="fs__14">Sort by</label>
                       <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
-                        <option value="">Recommended</option>
-                        <option value="">Price: Low to High</option>
-                        <option value="">Price: High to Low</option>
-                        <option value="">Duration</option>
+                        <option>Recommended</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Duration</option>
                       </select>
                     </div>
                   </div>
@@ -800,7 +800,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -818,7 +818,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -881,7 +881,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -899,7 +899,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -963,7 +963,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -981,7 +981,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1045,7 +1045,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1063,7 +1063,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1111,10 +1111,10 @@
                     <div class="sort_dropdown d-flex align-items-center gap-0">
                       <label class="fs__14">Sort by</label>
                       <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
-                        <option value="">Recommended</option>
-                        <option value="">Price: Low to High</option>
-                        <option value="">Price: High to Low</option>
-                        <option value="">Duration</option>
+                        <option>Recommended</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Duration</option>
                       </select>
                     </div>
                   </div>
@@ -1147,7 +1147,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1165,7 +1165,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1228,7 +1228,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1246,7 +1246,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1310,7 +1310,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1328,7 +1328,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1392,7 +1392,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1410,7 +1410,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1457,10 +1457,10 @@
                     <div class="sort_dropdown d-flex align-items-center gap-0">
                       <label class="fs__14">Sort by</label>
                       <select class="form-select fw-semibold w-auto" id="sort-by" name="sort_by">
-                        <option value="">Recommended</option>
-                        <option value="">Price: Low to High</option>
-                        <option value="">Price: High to Low</option>
-                        <option value="">Duration</option>
+                        <option>Recommended</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Duration</option>
                       </select>
                     </div>
                   </div>
@@ -1493,7 +1493,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1511,7 +1511,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1574,7 +1574,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1592,7 +1592,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1656,7 +1656,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1674,7 +1674,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1738,7 +1738,7 @@
 
                             <div class="flights_time">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                <input class="form-check-input" type="checkbox" id="checkOne">
                                 <label class="form-check-label" for="checkOne">
                                   <div
                                     class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">
@@ -1756,7 +1756,7 @@
 
                               <div class="flights_time">
                                 <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="checkOne">
+                                  <input class="form-check-input" type="checkbox" id="checkOne">
                                   <label class="form-check-label" for="checkOne">
                                     <div
                                       class="d-flex gap-3 flex-sm-row align-items-sm-strat flex-column align-items-center">

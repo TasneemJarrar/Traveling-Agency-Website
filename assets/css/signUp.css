@@ -53,7 +53,6 @@
 .sign-up .form-check .form-check-input:focus {
   border-color: #000;
   outline: 0;
-  box-shadow: none;
 }
 .sign-up .devider::before {
   content: "";
@@ -80,3 +79,29 @@
   opacity: 25%;
 }
 /* sign up form end */
+.carousel {
+  animation: SlideInLeft 1.2s ease;
+}
+.sign-up_form {
+  animation: SlideInRight 1.2s ease;
+}
+.sign-up_form .checkbox .form-check-input {
+  transition: all 0.3s ease;
+}
+.sign-up_form .checkbox .form-check-input:checked {
+  animation: BigBounce 0.4s ease;
+}
+.sign-up_form .checkbox .form-check-label a {
+  transition: all 0.3s ease;
+}
+.sign-up_form .checkbox .form-check-label a:hover {
+  transform: translateY(-2px);
+  font-weight: 600;
+}
+.sign-up_form .login .login-btn {
+  transition: all 0.3s ease;
+}
+.sign-up_form .login .login-btn:hover {
+  transform: translateY(-2px);
+  font-weight: 600;
+}

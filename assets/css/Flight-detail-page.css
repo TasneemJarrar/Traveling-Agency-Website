@@ -50,8 +50,7 @@
 }
 /* navbar end */
 /* hero start */
-.hero .flight_image img{
-
+.hero .flight_image img {
   height: 395px;
 }
 /* hero end */
@@ -62,7 +61,6 @@
 .economy_features .form-check-input:focus {
   border-color: #8dd3bb;
   outline: 0;
-  box-shadow: none;
 }
 .economy_features .form-check-input:checked {
   background-color: var(--maincolor);
@@ -117,3 +115,91 @@
   opacity: 70%;
 }
 /* footer end */
+/* hovers and animations */
+.hero .breadcrumb {
+  animation: fadeInUp 1.2s ease;
+}
+.hero .flight_info .text_info {
+  animation: SlideInLeft 1.2s ease;
+}
+.hero .flight_info .price_info {
+  animation: SlideInRight 1.2s ease;
+}
+.hero .flight_info .price_info .btn_favourit,
+.flight_info .price_info .share_btn {
+  transition: all 0.3s ease;
+}
+.hero .flight_info .price_info .btn_favourit:hover,
+.flight_info .price_info .share_btn:hover {
+  transform: rotate(5deg);
+  background: var(--maincolor);
+}
+.hero .flight_info .price_info .btn_favourit:hover svg path {
+  stroke: var(--slamoncolor);
+  fill: var(--slamoncolor);
+}
+.hero .flight_info .price_info .share_btn:hover svg path {
+  stroke: #fff;
+  fill: #fff;
+}
+.hero .flight_info .price_info .btn_favourit:focus svg path {
+  stroke: var(--slamoncolor);
+  fill: var(--slamoncolor);
+}
+.flight-info_card .amenity_icon {
+  transition: all 0.3s ease;
+}
+.flight-info_card .amenity_icon:hover {
+  transform: translateY(-5px) scale(1.15);
+}
+.flight-info_card .amenity_icon svg {
+  transition: all 0.3s ease;
+}
+.flight-info_card .amenity_icon:hover svg path {
+  fill: var(--slamoncolor);
+}
+.flight-info_card .amenity_icon_wifi svg {
+  transition: all 0.3s ease;
+}
+.flight-info_card .amenity_icon_wifi:hover svg path {
+  fill: none;
+  stroke: var(--slamoncolor);
+}
+.economy_features .header_title {
+  animation: SlideInLeft 1.2s ease;
+}
+.economy_features .class_selector {
+  animation: SlideInRight 1.2s ease;
+}
+.economy_features .economy_features-imgs {
+  animation: fadeInUp 1.2s ease;
+}
+.economy_features .economy_features-img:hover {
+  animation: BigBounce 1.2s ease;
+}
+.economy_features .radio .form-check-input {
+  transition: all 0.3s ease;
+}
+.economy_features .radio .form-check-input:checked {
+  animation: BoBigBounceunce 0.4s ease;
+}
+.policies .airlines_policies p {
+  transition: all 0.3s ease;
+  animation: fadeInUp 1.2s ease;
+}
+.policies .airlines_policies p:hover {
+  transform: translateY(-2px);
+}
+.flight_schedule_card .card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.flight_schedule_card .card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.flight_schedule_card .card img {
+  transition: transform 0.5s ease;
+}
+.flight_schedule_card .card:hover img {
+  transform: scale(1.1);
+}

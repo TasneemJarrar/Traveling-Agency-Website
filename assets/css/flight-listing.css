@@ -188,6 +188,10 @@
   background-color: var(--maincolor);
   border-color: var(--maincolor);
 }
+.flight_card .btn_favourit:focus svg path {
+  stroke: var(--slamoncolor);
+  fill: var(--slamoncolor);
+}
 @media screen and (max-width: 992px) {
   .flight-search .results::before {
     display: none;
@@ -203,7 +207,7 @@
     padding-right: 10px;
   }
 }
-/* Flight Cards start */
+/* Flight Cards end */
 /* newsletter start */
 .newsletter {
   bottom: -150px;
@@ -231,3 +235,74 @@
   opacity: 70%;
 }
 /* footer end */
+/* hovers and animations */
+.search-form .search__card {
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+.filters_sidebar .accordion-button {
+  transition: all 0.3s ease;
+}
+.filters_sidebar .accordion-button:hover {
+  background-color: rgba(141, 211, 187, 0.1);
+}
+.filters_sidebar .accordion-button::after {
+  transition: transform 0.3s ease;
+}
+.filters_sidebar .accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg);
+}
+.checkbox .form-check-input {
+  transition: all 0.3s ease;
+}
+.checkbox .form-check-input:checked {
+  animation: BigBounce 0.4s ease;
+}
+.nav .nav-link,
+.nav .nav-link .nav-link_title {
+  transition: all 0.3s ease;
+}
+.nav .nav-link svg path {
+  transition: all 0.3s ease;
+}
+.nav .nav-link:hover .nav-link_title,
+.nav .nav-link:hover {
+  color: var(--maincolor);
+  transform: translateY(-2px);
+}
+.nav .nav-link:hover svg path {
+  fill: var(--maincolor);
+  stroke: var(--maincolor);
+  transform: translateY(-2px);
+}
+.tab-content .results_info .form-select {
+  transition: all 0.3s ease;
+}
+.tab-content .results_info .form-select:hover {
+  color: var(--slamoncolor);
+  transform: translateY(-2px);
+}
+.flight_card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.flight_card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.flight_card img {
+  transition: transform 0.5s ease;
+}
+.flight_card:hover img {
+  transform: scale(1.05);
+}
+.flight_card .btn_favourit {
+  transition: all 0.3s ease;
+}
+.flight_card .btn_favourit:hover {
+  transform: rotate(5deg);
+  background: var(--maincolor);
+}
+.flight_card .btn_favourit:hover svg path {
+  stroke: var(--slamoncolor);
+  fill: var(--slamoncolor);
+}

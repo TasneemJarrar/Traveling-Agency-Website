@@ -28,7 +28,6 @@
 .verify-code .form-check .form-check-input:focus {
   border-color: #000;
   outline: 0;
-  box-shadow: none;
 }
 /* verify code form end */
 /* carousal start */
@@ -56,3 +55,27 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 /* carousal end */
+.carousel {
+  animation: SlideInRight 1.2s ease;
+}
+.verify-code_form {
+  animation: SlideInLeft 1.2s ease;
+}
+.verify-code_form .back-to_login {
+  transition: all 0.3s ease;
+}
+.verify-code_form .back-to_login:hover {
+  transform: scale(1.05);
+  color: var(--slamoncolor);
+  font-weight: 600;
+}
+.verify-code_form .back-to_login:hover svg path {
+  fill: var(--slamoncolor);
+  stroke: var(--slamoncolor);
+}
+.verify-code_form .resend .resend-btn {
+  transition: all 0.3s ease;
+}
+.verify-code_form .resend .resend-btn:hover {
+  font-weight: 600;
+}

@@ -225,3 +225,59 @@
   opacity: 70%;
 }
 /* footer end */
+/* hovers and animations */
+.hero .cover_profile-image .user__info .user__img {
+  animation: BigBounce 1.2s ease;
+}
+.hero .cover_profile-image .user__info a:hover {
+  color: var(--slamoncolor);
+}
+.account-settings__card .card_nav {
+  animation: fadeInUp 0.8s ease forwards;
+}
+.nav .nav-link,
+.nav .nav-link p {
+  transition: all 0.3s ease;
+}
+.nav .nav-link svg path {
+  transition: all 0.3s ease;
+}
+.nav .nav-link:hover p,
+.nav .nav-link:hover {
+  color: var(--maincolor);
+  transform: translateY(-2px);
+}
+.nav .nav-link:hover svg path {
+  fill: var(--maincolor);
+  stroke: var(--maincolor);
+  transform: translateY(-2px);
+}
+.ticket_card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.ticket_card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.ticket_card img {
+  transition: transform 0.5s ease;
+}
+.ticket_card:hover img {
+  transform: scale(1.1);
+}
+.ticket_card .actions .go-back_btn {
+  transition: all 0.3s ease;
+}
+.ticket_card .actions .go-back_btn:hover {
+  transform: rotate(5deg);
+  background: var(--maincolor);
+}
+.user_cards .add_new_card .modal .checkbox .form-check-input {
+  transition: all 0.3s ease;
+}
+.user_cards .add_new_card .modal .checkbox .form-check-input:checked {
+  animation: BigBounce 0.4s ease;
+}
+.user_cards .card_item .btn_delete:hover {
+  transform: rotate(5deg);
+}

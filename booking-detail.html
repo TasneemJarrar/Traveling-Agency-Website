@@ -9,7 +9,6 @@
     content="Review your flight details and complete your booking. Choose payment method and confirm passenger information. Secure booking with flexible payment options.">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
-
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -110,7 +109,8 @@
         <div class="row">
 
           <div class="col-lg-7 col-12 order-lg-1 order-2">
-            <a href="./airline-ticket-details.html" class="card border-0 p-4 shadow d-flex flex-column gap-4 mb-4">
+            <a href="./airline-ticket-details.html"
+              class="card flight-info_card border-0 p-4 shadow d-flex flex-column gap-4 mb-4">
 
               <div
                 class="schedule_header d-flex flex-md-row flex-column justify-content-md-between align-items-center mb-4 ">
@@ -135,7 +135,7 @@
                         d="M186.62 464H160a16 16 0 0 1-14.57-22.6l64.46-142.25L113.1 297l-35.3 42.77C71.07 348.23 65.7 352 52 352H34.08a17.66 17.66 0 0 1-14.7-7.06c-2.38-3.21-4.72-8.65-2.44-16.41l19.82-71c.15-.53.33-1.06.53-1.58a.4.4 0 0 0 0-.15a15 15 0 0 1-.53-1.59l-19.84-71.45c-2.15-7.61.2-12.93 2.56-16.06a16.83 16.83 0 0 1 13.6-6.7H52c10.23 0 20.16 4.59 26 12l34.57 42.05l97.32-1.44l-64.44-142A16 16 0 0 1 160 48h26.91a25 25 0 0 1 19.35 9.8l125.05 152l57.77-1.52c4.23-.23 15.95-.31 18.66-.31C463 208 496 225.94 496 256c0 9.46-3.78 27-29.07 38.16c-14.93 6.6-34.85 9.94-59.21 9.94c-2.68 0-14.37-.08-18.66-.31l-57.76-1.54l-125.36 152a25 25 0 0 1-19.32 9.75" />
                     </svg>
                   </span>
-                  <span class="amenity_icon">
+                  <span class="amenity_icon amenity_icon_wifi">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
                       <g fill="none">
                         <path stroke="#112211" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
@@ -194,10 +194,10 @@
               </div>
             </a>
 
-            <div class="card border-0 shadow payment_options p-4 d-flex flex-column gap-4 mb-4">
+            <div class="payment-option_card card border-0 shadow payment_options p-4 d-flex flex-column gap-4 mb-4">
 
               <div class="payment_option p-2 rounded-3">
-                <div class="form-check d-flex align-items-center justify-content-between gap-4">
+                <div class="form-check radio d-flex align-items-center justify-content-between gap-4">
                   <label class="form-check-label flex-grow-1 d-flex flex-column gap-3" for="full_payment_method">
                     <span class="secondary__font fw-bold text__blackishgreen">Pay in full</span>
                     <p class="fs__14 text__blackishgreen">Pay the total and you are all set</p>
@@ -208,7 +208,7 @@
               </div>
 
               <div class="payment_option p-2 rounded-3">
-                <div class="form-check d-flex align-items-center justify-content-between gap-4">
+                <div class="form-check radio d-flex align-items-center justify-content-between gap-4">
                   <label class="form-check-label flex-grow-1 d-flex flex-column gap-3" for="part_payment_method">
                     <span class="secondary__font fw-bold text__blackishgreen">Pay part now, part later</span>
                     <p class="fs__14 text__blackishgreen">Pay $207.43 now, and the rest ($207.43) will be automatically
@@ -243,8 +243,8 @@
                 class="add_new_card py-5 rounded-1 d-flex flex-column gap-2 align-items-center justify-content-center">
 
                 <!-- Button trigger modal -->
-                <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal"
-                  data-bs-target="#cardModal">
+                <button type="button" class="btn add-card_btn border-0 bg-transparent rounded-circle  p-1"
+                  data-bs-toggle="modal" data-bs-target="#cardModal">
                   <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 1024 1024">
                     <path fill="#8DD3BB"
                       d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0m0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01M736 480H544V288c0-17.664-14.336-32-32-32s-32 14.336-32 32v192H288c-17.664 0-32 14.336-32 32s14.336 32 32 32h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32V544h192c17.664 0 32-14.336 32-32s-14.336-32-32-32" />
@@ -270,9 +270,9 @@
 
                           <div class="card_inputs mb-3">
                             <label for="cardNumber" class="form-label">Card Number</label>
-                            <div class="input-group d-flex justify-content-center align-items-center px-2 py-3">
-                              <input type="text" class="form-control border-0 flex-grow-1 p-0" id="cardNumber"
-                                placeholder="4321 4321 4321 4321">
+                            <div class="input-group d-flex justify-content-center align-items-center px-2 py-0">
+                              <input type="text" class="form-control border-0 flex-grow-1 py-3 bg-transparent"
+                                id="cardNumber" placeholder="4321 4321 4321 4321">
                               <label for="cardNumber">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 2304 1536">
                                   <path fill="#1434CB"
@@ -313,7 +313,7 @@
                             </select>
                           </div>
 
-                          <div class="form-check px-4 mb-4">
+                          <div class="form-check checkbox px-4 mb-4">
                             <input class="form-check-input" type="checkbox" id="saveInfo" checked>
                             <label class="form-check-label" for="saveInfo">
                               Securely save my information for 1-click checkout
@@ -335,8 +335,7 @@
                   </div>
                 </div>
 
-
-                <p class="text__blackishgreen fs__12 fw-medium">Add a new card</p>
+                <p class="add-card_text text__blackishgreen fs__12 fw-medium">Add a new card</p>
 
               </div>
 
@@ -357,8 +356,7 @@
                   </div>
 
                   <div class="d-flex align-items-center gap-3">
-                    <button type="button"
-                      class="btn btn__primary-outline px-2 py-2 fw-medium fs__12 text__blackishgreen">
+                    <button type="button" class="btn__primary-outline px-2 py-2 fw-medium fs__12 text__blackishgreen">
                       4.2
                     </button>
                     <span class="text__blackishgreen fs__12 fw-bold">Very Good <span
