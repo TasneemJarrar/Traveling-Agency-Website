@@ -61,15 +61,15 @@
 .verify-code_form {
   animation: SlideInLeft 1.2s ease;
 }
-.verify-code_form .back-to_login {
+.verify-code .back-to_login {
   transition: all 0.3s ease;
 }
-.verify-code_form .back-to_login:hover {
+.verify-code .back-to_login:hover {
   transform: scale(1.05);
   color: var(--slamoncolor);
   font-weight: 600;
 }
-.verify-code_form .back-to_login:hover svg path {
+.verify-code .back-to_login:hover svg path {
   fill: var(--slamoncolor);
   stroke: var(--slamoncolor);
 }

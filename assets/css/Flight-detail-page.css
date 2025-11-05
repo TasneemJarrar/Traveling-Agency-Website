@@ -146,22 +146,22 @@
   stroke: var(--slamoncolor);
   fill: var(--slamoncolor);
 }
-.flight-info_card .amenity_icon {
+.flight_schedule_card .amenity_icon {
   transition: all 0.3s ease;
 }
-.flight-info_card .amenity_icon:hover {
+.flight_schedule_card .amenity_icon:hover {
   transform: translateY(-5px) scale(1.15);
 }
-.flight-info_card .amenity_icon svg {
+.flight_schedule_card .amenity_icon svg {
   transition: all 0.3s ease;
 }
-.flight-info_card .amenity_icon:hover svg path {
+.flight_schedule_card .amenity_icon:hover svg path {
   fill: var(--slamoncolor);
 }
-.flight-info_card .amenity_icon_wifi svg {
+.flight_schedule_card .amenity_icon_wifi svg {
   transition: all 0.3s ease;
 }
-.flight-info_card .amenity_icon_wifi:hover svg path {
+.flight_schedule_card .amenity_icon_wifi:hover svg path {
   fill: none;
   stroke: var(--slamoncolor);
 }
