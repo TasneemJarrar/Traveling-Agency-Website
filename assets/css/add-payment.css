@@ -78,3 +78,15 @@
 .add-payment_form .checkbox .form-check-input:checked {
   animation: BigBounce 0.4s ease;
 }
+.add-payment .back_btn {
+  transition: all 0.3s ease;
+}
+.add-payment .back_btn:hover {
+  transform: scale(1.05);
+  color: var(--slamoncolor);
+  font-weight: 600;
+}
+.add-payment .back_btn:hover svg path {
+  fill: var(--slamoncolor);
+  stroke: var(--slamoncolor);
+}
