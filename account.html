@@ -7,7 +7,7 @@
   <title>My Account - Manage Profile & Bookings | Golobe</title>
   <meta name="description"
     content="Manage your Golobe account, view booking history, update payment methods, and edit personal information. Access your flight tickets and hotel reservations in one place.">
-  <link rel="icon" type="image/x-icon" href="./">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
 
   <!-- Google Fonts -->
@@ -86,14 +86,121 @@
             </svg>
             Favourites
           </a>
-          <a href="#" class="text__blackishgreen fs__14 fw-semibold d-flex gap-1 align-items-center">
+          <a href="./account.html" class="text__blackishgreen fs__14 fw-semibold d-flex gap-1 align-items-center">
             <div class="user__img position-relative">
               <a href="./account.html" class="">
                 <img src="./assets/images/flight-listing/navbar/John D.webp" alt="">
               </a>
-              <button class="arrow_down position-absolute border-0 p-0 bg-transparent">
-                <img src="./assets/images/flight-listing/navbar/Arrow Down.svg" alt="arrow down">
-              </button>
+
+              <div class="dropdown">
+                <button class="btn arrow_down position-absolute border-0 p-0 bg-transparent" type="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./assets/images/flight-listing/navbar/Arrow Down.svg" alt="arrow down">
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-start p-3 border-0">
+
+                  <li>
+                    <div class="user_info d-flex gap-3">
+                      <img src="./assets/images/flight-listing/navbar/John D.webp" alt="user image">
+                      <div class="user-text_info">
+                        <p class="text__blackishgreen fw-semibold">John Doe.</p>
+                        <p class="text__blackishgreen opacity-75 fs__14">Online</p>
+                      </div>
+                    </div>
+                  </li>
+                  <hr class="text__blackishgreen opacity-50" />
+
+                  <li class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                      <a class="dropdown-item d-flex align-items-center gap-2 fs__14" href="./account.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16">
+                          <path fill="#000"
+                            d="M8 8a3 3 0 1 0 0-6a3 3 0 0 0 0 6m4.735 6c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139z" />
+                        </svg>
+                        My Account</a>
+                    </div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="1.5" d="m10 17l5-5l-5-5" />
+                      </svg>
+                    </div>
+                  </li>
+
+                  <li class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                      <a class="dropdown-item d-flex align-items-center gap-2 fs__14" href="./account.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 512 512">
+                          <path fill="#000"
+                            d="M32 376a56 56 0 0 0 56 56h336a56 56 0 0 0 56-56V222H32Zm66-76a30 30 0 0 1 30-30h48a30 30 0 0 1 30 30v20a30 30 0 0 1-30 30h-48a30 30 0 0 1-30-30ZM424 80H88a56 56 0 0 0-56 56v26h448v-26a56 56 0 0 0-56-56" />
+                        </svg>
+                        Payment</a>
+                    </div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="1.5" d="m10 17l5-5l-5-5" />
+                      </svg>
+                    </div>
+                  </li>
+
+                  <li class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                      <a class="dropdown-item d-flex align-items-center gap-2 fs__14" href="./account.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 512 512">
+                          <circle cx="256" cy="256" r="48" fill="#000" />
+                          <path fill="#000"
+                            d="m470.39 300l-.47-.38l-31.56-24.75a16.11 16.11 0 0 1-6.1-13.33v-11.56a16 16 0 0 1 6.11-13.22L469.92 212l.47-.38a26.68 26.68 0 0 0 5.9-34.06l-42.71-73.9a1.6 1.6 0 0 1-.13-.22A26.86 26.86 0 0 0 401 92.14l-.35.13l-37.1 14.93a15.94 15.94 0 0 1-14.47-1.29q-4.92-3.1-10-5.86a15.94 15.94 0 0 1-8.19-11.82l-5.59-39.59l-.12-.72A27.22 27.22 0 0 0 298.76 26h-85.52a26.92 26.92 0 0 0-26.45 22.39l-.09.56l-5.57 39.67a16 16 0 0 1-8.13 11.82a175 175 0 0 0-10 5.82a15.92 15.92 0 0 1-14.43 1.27l-37.13-15l-.35-.14a26.87 26.87 0 0 0-32.48 11.34l-.13.22l-42.77 73.95a26.71 26.71 0 0 0 5.9 34.1l.47.38l31.56 24.75a16.11 16.11 0 0 1 6.1 13.33v11.56a16 16 0 0 1-6.11 13.22L42.08 300l-.47.38a26.68 26.68 0 0 0-5.9 34.06l42.71 73.9a1.6 1.6 0 0 1 .13.22a26.86 26.86 0 0 0 32.45 11.3l.35-.13l37.07-14.93a15.94 15.94 0 0 1 14.47 1.29q4.92 3.11 10 5.86a15.94 15.94 0 0 1 8.19 11.82l5.56 39.59l.12.72A27.22 27.22 0 0 0 213.24 486h85.52a26.92 26.92 0 0 0 26.45-22.39l.09-.56l5.57-39.67a16 16 0 0 1 8.18-11.82c3.42-1.84 6.76-3.79 10-5.82a15.92 15.92 0 0 1 14.43-1.27l37.13 14.95l.35.14a26.85 26.85 0 0 0 32.48-11.34a3 3 0 0 1 .13-.22l42.71-73.89a26.7 26.7 0 0 0-5.89-34.11m-134.48-40.24a80 80 0 1 1-83.66-83.67a80.21 80.21 0 0 1 83.66 83.67" />
+                        </svg>
+                        Settings</a>
+                    </div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="1.5" d="m10 17l5-5l-5-5" />
+                      </svg>
+                    </div>
+                  </li>
+                  <hr class="text__blackishgreen opacity-50" />
+
+                  <li class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                      <a class="dropdown-item d-flex align-items-center gap-2 fs__14" href="./account.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                          <path fill="#000"
+                            d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m-2.9-2.55l1.2-2.75q-1.05-.375-1.812-1.162T7.3 13.7l-2.75 1.15q.575 1.6 1.775 2.8t2.775 1.8M7.3 10.3q.425-1.05 1.188-1.837T10.3 7.3L9.15 4.55q-1.6.6-2.8 1.8t-1.8 2.8zM12 15q1.25 0 2.125-.875T15 12t-.875-2.125T12 9t-2.125.875T9 12t.875 2.125T12 15m2.9 4.45q1.575-.6 2.763-1.787T19.45 14.9l-2.75-1.2q-.375 1.05-1.15 1.813t-1.8 1.187zm1.8-9.2l2.75-1.15q-.6-1.575-1.787-2.762T14.9 4.55l-1.15 2.8q1.025.375 1.775 1.138T16.7 10.25" />
+                        </svg>
+                        Support</a>
+                    </div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="1.5" d="m10 17l5-5l-5-5" />
+                      </svg>
+                    </div>
+                  </li>
+
+                  <li class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                      <a class="dropdown-item d-flex align-items-center gap-2 fs__14" href="./index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 512 512">
+                          <path fill="#000"
+                            d="M160 256a16 16 0 0 1 16-16h144V136c0-32-33.79-56-64-56H104a56.06 56.06 0 0 0-56 56v240a56.06 56.06 0 0 0 56 56h160a56.06 56.06 0 0 0 56-56V272H176a16 16 0 0 1-16-16m299.31-11.31l-80-80a16 16 0 0 0-22.62 22.62L409.37 240H320v32h89.37l-52.68 52.69a16 16 0 1 0 22.62 22.62l80-80a16 16 0 0 0 0-22.62" />
+                        </svg>
+                        Log out</a>
+                    </div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="1.5" d="m10 17l5-5l-5-5" />
+                      </svg>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
             </div>
             <span class="user__name ">John D.</span>
           </a>

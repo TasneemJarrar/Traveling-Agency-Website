@@ -43,6 +43,18 @@
   bottom: 0;
   right: 2px;
 }
+.navbar .user__img .dropdown .dropdown-menu{
+  width: 250px;
+}
+.navbar .user__img .dropdown .dropdown-menu-start[data-bs-popper] {
+  right: auto;
+  left: -95px;
+}
+.navbar .user__img .dropdown .dropdown-item:focus, .dropdown-item:hover {
+  background-color: transparent;
+  transform: scale(1.02);
+  font-weight: 600;
+}
 @media screen and (max-width: 992px) {
   .navbar .favourites_btn::after {
     display: none;
