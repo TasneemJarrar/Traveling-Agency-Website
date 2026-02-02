@@ -1,4 +1,11 @@
 /* navbar start */
+.navbar{
+  transition: all .7s ease-in-out;
+}
+.navbar.header_scroll{
+  background-color: #112211;
+  padding-top: 0;
+}
 .navbar .container {
   background-color: #11221184;
   border-radius: 20px;
